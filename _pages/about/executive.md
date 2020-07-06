@@ -2,12 +2,12 @@
 title: 'Executive Committee'
 author: adamdjbrett
 excerpt: "Executive Committee of the World Conference of Associated Theological Institutions"
-layout: article
 permalink: /about/executive/
-published: true
 date: 2012-06-19 22:12:05
 modified: 2019-03-25T11:57:41-04:00
-share: false
+sidebar:
+  title: "About WOCATI"
+  nav: sidebar-about
 ---
 [![World Conference of Associated Theological Institutions](/wp-content/uploads/2012/06/WOCATI-logo.png "WOCATI logo")](/wp-content/uploads/2012/06/WOCATI-logo.png)
 
@@ -54,16 +54,3 @@ Prof. Dr. James Massey, _(BTESSC)_ Phone: +91 33 26622692 Email: srsenate@cal2.v
 [![](/wp-content/uploads/2012/06/Ivan-Dimitrov-120x180.jpg "Ivan Dimitrov 120x180")](/wp-content/uploads/2012/06/Ivan-Dimitrov-120x180.jpg)
 
 Prof. Dr. Ivan Zhelev Dimitrov Phone: +3592/9890115 (22) Email: ivand@theo.uni-sofia.bg
-
-***
-### About Sub-Menu
-#### [about](/about/)
-#### [constitution](/about/constitution/)
-#### [executive](/about/executive/)
-#### [history](/about/history/)
-#### [staff](/about/staff/)
-#### [the future of ecumenism](/about/the-future-of-ecumenism/)
-#### [academic scholarly ecumenical award](/academic-scholarly-ecumenical-award/)
-#### [members](/members/)
-##### [join](/join/)
-#### [contact](/contact/)

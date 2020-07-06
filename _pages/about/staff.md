@@ -1,13 +1,12 @@
 ---
 title: 'WOCATI Staff and Consultants'
-author: WOCATI
 excerpt: "World Conference of Associated Theological Institutions staff"
-layout: article
 permalink: /about/staff/
-published: true
 date: 2012-06-25 18:12:50
 modified: 2019-03-25T11:57:41-04:00
-share: false
+sidebar:
+  title: "About WOCATI"
+  nav: sidebar-about
 ---
 [![World Conference of Associated Theological Institutions](/wp-content/uploads/2012/06/WOCATI-logo.png "WOCATI logo")](/wp-content/uploads/2012/06/WOCATI-logo.png)
 
@@ -40,18 +39,3 @@ share: false
 
 ### **WOCATI – Web Administrator**
 - Adam DJ Brett Website: [http://adamdjbrett.com](http://adamdjbrett.com "Adam DJ Brett - Official Homepage")
-
-
-***
-***
-### About Sub-Menu
-#### [about](/about/)
-#### [constitution](/about/constitution/)
-#### [executive](/about/executive/)
-#### [history](/about/history/)
-#### [staff](/about/staff/)
-#### [the future of ecumenism](/about/the-future-of-ecumenism/)
-#### [academic scholarly ecumenical award](/academic-scholarly-ecumenical-award/)
-#### [members](/members/)
-##### [join](/join/)
-#### [contact](/contact/)

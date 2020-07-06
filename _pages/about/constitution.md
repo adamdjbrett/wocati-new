@@ -1,17 +1,18 @@
 ---
-layout: article
 title: 'WOCATI Constitution'
 date: 2012-06-25 17:49:55
 modified: 2019-03-25T11:57:41-04:00
-author: WOCATI
 excerpt: "Theological education is a worldwide enterprise fundamental to the mission of the church."
-published: true
-share: false
 permalink: /about/constitution/
+sidebar:
+  title: "About WOCATI"
+  nav: sidebar-about
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)  
 ---
 [![World Conference of Associated Theological Institutions](/wp-content/uploads/2012/06/WOCATI-logo.png "WOCATI logo")](/wp-content/uploads/2012/06/WOCATI-logo.png)
 
-{% include toc.html %}
 
 # World Conference of Associations of Theological Institutions (WOCATI) Theological Education Network
 # Constitution and Bylaws
@@ -227,16 +228,3 @@ _Adopted by WOCATI (The World Conference of Associations of Theological Institut
 
 ## Download the World Conference of Associations of Theological Institutions (WOCATI)  Constitution
 ### [&#10515; WOCATI Constitution 2010 PDF](/wp-content/uploads/2012/06/WOCATI-Constitution-2010_rev2.pdf)
-
-***
-### About Sub-Menu
-#### [about](/about/)
-#### [constitution](/about/constitution/)
-#### [executive](/about/executive/)
-#### [history](/about/history/)
-#### [staff](/about/staff/)
-#### [the future of ecumenism](/about/the-future-of-ecumenism/)
-#### [academic scholarly ecumenical award](/academic-scholarly-ecumenical-award/)
-#### [members](/members/)
-##### [join](/join/)
-#### [contact](/contact/)

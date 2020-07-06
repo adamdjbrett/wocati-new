@@ -3,9 +3,9 @@ ID: 1116
 title: "Academic Scholarly Ecumenical Award"
 author: adamdjbrett
 excerpt: "The Awards will be given every two years, starting from 2016. Both awards are honorific (with a AISR trophy) and both the call and the results will be announced also on the AISR web site."
-layout: article
+
 permalink: /academic-scholarly-ecumenical-award/
-published: true
+
 date: 2015-05-19 21:04:55
 image:
   feature: wocati-abstract-850x288.png

@@ -1,20 +1,19 @@
 ---
 ID: 28
 title: 'Member Associations'
-author: WOCATI
 excerpt: "Member Associations"
-layout: article
 permalink: /members/
-published: true
 date: 2012-06-19 21:56:49
 modified: 2019-03-25T11:57:41-04:00
-redirect_from: members.html
+redirect_from: /members.html
+sidebar:
+  title: "About WOCATI"
+  nav: sidebar-about
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 ---
 [![World Conference of Associated Theological Institutions](/wp-content/uploads/2012/06/WOCATI-logo.png "WOCATI logo")](/wp-content/uploads/2012/06/WOCATI-logo.png)
-
-
-{% include toc.html %}
-
 
 
 
@@ -207,17 +206,3 @@ Physical Address: Knox Centre for Ministry and Leadership, Knox College, Arden S
 
 
 [WCC list of WOCATI members and affiliated colleges](http://www.oikoumene.org/en/programmes/education-and-ecumenical-formation/ecumenical-theological-education/wcc-partners-in-theological-education/international-directory-of-theological-schools/wocati-members-and-colleges-affiliated-to-wocati.html "WCC - List of WOCATI members and Affiliates")
-
-
-***
-### About Sub-Menu
-#### [about](/about/)
-#### [constitution](/about/constitution/)
-#### [executive](/about/executive/)
-#### [history](/about/history/)
-#### [staff](/about/staff/)
-#### [the future of ecumenism](/about/the-future-of-ecumenism/)
-#### [academic scholarly ecumenical award](/academic-scholarly-ecumenical-award/)
-#### [members](/members/)
-##### [join](/join/)
-#### [contact](/contact/)

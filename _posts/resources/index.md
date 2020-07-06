@@ -1,14 +1,14 @@
 ---
 ID: 20
 title: 'Resources'
-author: WOCATI
+
 excerpt: "Full World Conference of Associations of Theological Institutions (WOCATI) Resources"
-layout: article
+
 permalink: /resources/
-published: true
+
 date: 2012-06-19 21:52:09
 modified: 2019-03-25T11:57:41-04:00
-share: false
+
 ---
 
 [![wocati](/wp-content/uploads/2012/06/wocati.jpg)](/wp-content/uploads/2012/06/wocati.jpg)

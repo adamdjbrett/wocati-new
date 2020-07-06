@@ -1,15 +1,15 @@
 ---
 ID: 775
 title: 'WOCATI Newsletter'
-author: WOCATI
+
 excerpt: "WOCATI Newsletter"
-layout: article
+
 permalink: /resources/archive/publications/wocati-newsletter/
-published: true
+
 date: 2012-06-30 00:26:52
 modified: 2019-03-25T11:57:41-04:00
 redirect_from: /resources/wocati-newsletter/
-share: false
+
 ---
 ## PDF Archive of the WOCATI Newsletter
 

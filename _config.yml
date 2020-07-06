@@ -91,6 +91,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # pdfs
+  - scope:
+      path: "wp-content/"
+    values:
+      pdf: true
 
 category_archive:
   type: liquid

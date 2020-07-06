@@ -3,16 +3,16 @@ ID: 1172
 title: 'Projects and Work by WOCATI'
 author: adamdjbrett
 excerpt: "Members of WOCATI published a groundbreaking book entitled Challenges and Promises of Quality Assurance in Theological Education: Multicontextual and Ecumenical Inquires."
-layout: article
+
 permalink: /work/
 image:
   feature: WOCATI_2011_Group_s-800x288.jpg
   credit: Dr. Victor Nakah
   creditlink: https://www.wocati.org
-published: true
+
 date: 2016-09-06 00:09:47
 modified: 2019-03-25T11:57:41-04:00
-share: false
+
 ---
 WOCATI members have been involved in a variety of publishing activities like:
 - [Books](/resources/books/)

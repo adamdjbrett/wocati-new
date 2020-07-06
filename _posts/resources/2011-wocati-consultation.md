@@ -3,12 +3,12 @@ ID: 394
 title: '2011 WOCATI Consultation'
 author: adamdjbrett
 excerpt: "At the 2011 Consultation, participants from around the globe interacted with one another in a wide variety of activities."
-layout: article
+
 permalink: /resources/2011-wocati-consultation/
-published: true
+
 date: 2012-06-28 03:40:31
 modified: 2019-03-25T11:57:41-04:00
-share: false
+
 ---
 At the 2011 Consultation, participants from around the globe interacted with one another in a wide variety of activities. These included collective reflection sessions, group discussions, and informal gatherings at meals and tea.
 
