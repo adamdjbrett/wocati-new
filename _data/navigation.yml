@@ -7,3 +7,41 @@ main:
     url: /tags/
   - title: "About"
     url: /about/
+
+#sidebar about
+sidebar-av:
+  - title: "Audio/Visual Home"
+    url: /audiovisual/
+    children:
+      - title: "Introduction"
+        url: /intro/
+      - title: "Longhouse Burning"
+        url: /audiovisual/longhouse-burning/
+      - title: "Sullivan/Clinton Short Video"
+        url: /audiovisual/sullivan-clinton-video/
+  - title: "Art About Sullivan Clinton"
+    children:
+      - title: "Americana"
+        url: /categories/americana/
+      - title: "Alternate Takes"
+        url: /categories/alternate-takes/
+      - title: "Audio/Visual Art"
+        url: /categories/audio-visual/
+      - title: "Big City Indians"
+        url: /categories/big-city-indians/
+      - title: "iroquoia"
+        url: /categories/iroquoia/
+      - title: "Mixed-Media Art"
+        url: /categories/mixed-media/
+      - title: "Mother Earth"
+        url: /categories/mother-earth/
+      - title: "Pennsylvania Meets Sullivan/Clinton"
+        url: /categories/pennsylvania/
+      - title: "A Talk at the Smithsonian"
+        url: /categories/smithsonian/
+      - title: "Tales of Survivors"
+        url: /categories/tales-survivors/
+      - title: "A Tale of Three Cities"
+        url: /categories/three-cities/
+      - title: "Galleries Main Page"
+        url: /galleries/

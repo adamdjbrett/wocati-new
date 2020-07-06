@@ -1,0 +1,28 @@
+# Authors
+
+adamdjbrett:
+    name: Adam DJ Brett
+    avatar : "https://www.adamdjbrett.com/assets/img/adam-dj-brett-256x256-min.jpg"
+    bio    : "I am a Ph.D. Candidate in the Religion Department at Syracuse University where I study American Religion.."
+    links:
+      - label: "Website"
+        icon: "fas fa-fw fa-link"
+        url: "https://adamdjbrett.com"
+      - label: "Twitter"
+        icon: "fab fa-fw fa-twitter-square"
+        url: "https://twitter.com/__adjb"
+      - label: "GitHub"
+        icon: "fab fa-fw fa-github"
+        url: "https://github.com/adamdjbrett"
+      - label: "Instagram"
+        icon: "fab fa-fw fa-instagram"
+        url: "https://instagram.com/__adjb"
+
+
+WOCATI:
+  name: WOCATI
+  email: hello@wocati.org
+  bio: "I ordered what?"
+  avatar: international-200x200.png
+  twitter: wocati
+  facebook: wocati

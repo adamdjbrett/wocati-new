@@ -1,0 +1,7 @@
+# wocati.org/
+
+# Allow crawling of all content
+User-agent: *
+Disallow:
+
+Sitemap: http://wocati.org/sitemap.xml

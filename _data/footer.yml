@@ -1,0 +1,22 @@
+# Footer navigation links
+
+- title: Home
+  url: /
+
+- title: About
+  url: /about/
+
+- title: Work
+  url: /work/
+
+- title: Challenges and Promises
+  url: /work/challenges-promises-quality-assurance-theological-education/
+
+- title: Archive
+  url: /resources/archive/
+
+- title: Publications
+  url: /resources/archive/publications/
+
+- title: Contact
+  url: /contact/

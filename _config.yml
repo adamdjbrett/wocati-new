@@ -13,17 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+locale: "en-US"
+title: "WOCATI"
+title_separator: "-"
+subtitle: "World Conference of Associated Theological Institutions"
+email: hello@wocati.org
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  "World Conference of Associated Theological Institutions (WOCATI) is a global network to serve, support, and enhance theological education around the World."
+twitter_username: WOCATI
 minimal_mistakes_skin: default
 search: true
-
+url: "https://www.wocati.org"
+teaser: "/images/teaser.png"
+logo: "/images/international-88x88.png"
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -31,8 +33,9 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: "America/New_York" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+breadcrumbs: true # true, false (default)
+words_per_minute: 200
 include:
   - _pages
 
@@ -56,36 +59,18 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-redirect-from
 
-author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://twitter.com/WOCATI"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/WOCATI/"
+
 
 defaults:
   # _posts
