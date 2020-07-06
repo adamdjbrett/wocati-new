@@ -1,14 +1,10 @@
 ---
 ID: 801
 title: 'Ministerial Formation'
-
 excerpt: "WCC Ministerial Formation publication"
-
 permalink: /resources/archive/publications/ministerial-formation/
-
 date: 2012-06-30 00:31:13
 modified: 2019-03-25T11:57:41-04:00
-
 redirect_from: /resources/ministerial-formation/
 ---
 ## World Council of Churches (WCC) Ministerial Formation Archive

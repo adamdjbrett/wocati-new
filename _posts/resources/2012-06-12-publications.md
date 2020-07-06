@@ -1,18 +1,14 @@
 ---
 ID: 778
 title: 'Publications'
-
 excerpt: "Books, Journals, and other publications"
-
 permalink: /resources/archive/publications/
-
 date: 2012-06-30 00:26:32
 modified: 2019-03-25T11:57:41-04:00
 redirect_from:
 - /resources/publications/
 - /pubs/
 - /pubs
-
 ---
 ## World Conference of Associations of Theological Institutions (WOCATI) Publications Archive
 

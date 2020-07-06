@@ -1,15 +1,11 @@
 ---
 ID: 409
 title: 'Presenter Bios'
-
 excerpt: ""
-
 permalink: /resources/2011-wocati-consultation/presenter-bios/
-
 date: 2012-06-29 04:03:49
 modified: 2019-03-25T11:57:41-04:00
 redirect_from: /resources/presenter-bios/
-
 ---
 {% include toc.html %}
 
