@@ -5,11 +5,15 @@ excerpt: ""
 permalink: /resources/listeners-reports/
 date: 2012-06-28 04:04:50
 modified: 2019-03-25T11:57:41-04:00
-redirect_from:
-  - /resources/2011-wocati-consultation/listenerss-reports/
-  - /resources/2011-wocati-consultation/listeners-reports/
+categories:
+  - resources
+tags:
+  - consultation-2011  
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)    
 ---
-{% include toc.html %}
+
 
 # Listeners Reports
 

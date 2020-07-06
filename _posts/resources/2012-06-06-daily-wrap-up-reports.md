@@ -7,7 +7,13 @@ permalink: /resources/2011-wocati-consultation/daily-wrap-up-reports/
 date: 2012-06-28 03:57:37
 modified: 2019-03-25T11:57:41-04:00
 redirect_from: /resources/daily-wrap-up-reports/
-
+categories:
+  - resources
+tags:
+  - consultation-2011
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)    
 ---
 At the end of the Tuesday and Wednesday sessions (July 5 & 6, respectively), the participants were invited to consider the key themes from the sessions of that day and to share a key word or phrase that touched them or that summed up the day’s proceedings for them. These are their responses for the two days:
 

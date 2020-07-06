@@ -6,6 +6,11 @@ permalink: /resources/archive/publications/ministerial-formation/
 date: 2012-06-30 00:31:13
 modified: 2019-03-25T11:57:41-04:00
 redirect_from: /resources/ministerial-formation/
+categories:
+  - resources
+tags:
+  - ministerial-formation
+  - journal
 ---
 ## World Council of Churches (WCC) Ministerial Formation Archive
 

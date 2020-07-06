@@ -14,8 +14,15 @@ image:
   feature: book-cover2.jpg
   credit: Rob Lee
   creditlink: http://www.flickr.com/photos/roblee/23349644/
+categories:
+  - work
+tags:
+  - book
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)    
 ---
-{% include toc.html %}
+
 
 
 # Book Cover

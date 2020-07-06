@@ -5,6 +5,12 @@ excerpt: "Full World Conference of Associations of Theological Institutions (WOC
 permalink: /resources/
 date: 2012-06-19 21:52:09
 modified: 2019-03-25T11:57:41-04:00
+categories:
+  - resources
+tags:
+  - books
+  - articles
+  - journal
 ---
 
 [![wocati](/wp-content/uploads/2012/06/wocati.jpg)](/wp-content/uploads/2012/06/wocati.jpg)

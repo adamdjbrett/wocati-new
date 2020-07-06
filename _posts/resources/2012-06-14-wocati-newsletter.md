@@ -6,6 +6,10 @@ permalink: /resources/archive/publications/wocati-newsletter/
 date: 2012-06-30 00:26:52
 modified: 2019-03-25T11:57:41-04:00
 redirect_from: /resources/wocati-newsletter/
+categories:
+  - resources
+tags:
+  - newsletter
 ---
 ## PDF Archive of the WOCATI Newsletter
 

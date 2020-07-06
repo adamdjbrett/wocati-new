@@ -7,7 +7,13 @@ permalink: /resources/2011-wocati-consultation/group-discussion-reports/
 date: 2012-06-28 03:48:29
 modified: 2019-03-25T11:57:41-04:00
 redirect_from: /resources/group-discussion-reports/
-
+categories:
+  - resources
+tags:
+  - consultation-2011
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)    
 ---
 
 On Tuesday, July 5, 2011, the overall theme was “What Constitutes _Quality_ in Theological Education.”  In the afternoon session, the participants divided into groups and collectively identified important issues from the day’s presentations.
