@@ -5,7 +5,6 @@ excerpt: "Member Associations"
 permalink: /members/
 date: 2012-06-19 21:56:49
 modified: 2019-03-25T11:57:41-04:00
-redirect_from: /members.html
 sidebar:
   title: "About WOCATI"
   nav: sidebar-about
