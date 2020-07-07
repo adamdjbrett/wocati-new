@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Jekyll!"
+title: "2020 General Assembly minutes"
 date: 2020-07-06T15:34:30-04:00
 categories:
   - resources

@@ -91,11 +91,16 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # pdfs
+  # assets
   - scope:
-      path: "wp-content/"
+      path: "images"
+    values:
+      image: true
+  - scope:
+      path: "wp-content/uploads"
     values:
       pdf: true
+
 
 category_archive:
   type: liquid

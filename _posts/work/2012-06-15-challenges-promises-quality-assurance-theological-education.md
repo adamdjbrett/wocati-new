@@ -10,10 +10,9 @@ redirect_from:
   - /9780615770888/
   - /challenges/
   - /challenges
-image:
-  feature: book-cover2.jpg
-  credit: Rob Lee
-  creditlink: http://www.flickr.com/photos/roblee/23349644/
+header:
+  image: /images/book-cover2.jpg
+  caption: "[Photo Credit: **Rob Lee**](http://www.flickr.com/photos/roblee/23349644/)"
 categories:
   - work
 tags:

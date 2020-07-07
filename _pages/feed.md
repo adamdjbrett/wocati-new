@@ -3,4 +3,4 @@ title: Feed
 
 permalink: /feed/
 ---
-# [Atom](/atom.xml/)
+# [feed.xml](/feed.xml/)
