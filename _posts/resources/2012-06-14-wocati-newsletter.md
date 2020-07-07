@@ -10,6 +10,9 @@ categories:
   - resources
 tags:
   - newsletter
+sidebar:
+  title: "About WOCATI"
+  nav: sidebar-about    
 ---
 ## PDF Archive of the WOCATI Newsletter
 

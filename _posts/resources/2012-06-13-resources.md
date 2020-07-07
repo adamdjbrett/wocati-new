@@ -11,6 +11,9 @@ tags:
   - books
   - articles
   - journal
+sidebar:
+  title: "About WOCATI"
+  nav: sidebar-about  
 ---
 
 [![wocati](/wp-content/uploads/2012/06/wocati.jpg)](/wp-content/uploads/2012/06/wocati.jpg)

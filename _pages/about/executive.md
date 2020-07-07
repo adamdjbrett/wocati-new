@@ -1,6 +1,6 @@
 ---
 title: 'Executive Committee'
-author: adamdjbrett
+
 excerpt: "Executive Committee of the World Conference of Associated Theological Institutions"
 permalink: /about/executive/
 date: 2012-06-19 22:12:05

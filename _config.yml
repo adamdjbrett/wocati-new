@@ -70,6 +70,9 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook"
       url: "https://www.facebook.com/WOCATI/"
+    - label: "Website"
+      icon: "fab fa-fw fa-globe"
+      url: "https://adamdjbrett.com"
 
 
 defaults:

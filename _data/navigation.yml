@@ -39,3 +39,18 @@ sidebar-about:
         url: /members/join/
       - title: Contact
         url: /contact/
+  - title: Publications
+    url: /resources/publications/
+    children:
+      - title: Archive
+        url: /resources/archive/
+      - title: Books
+        url: /resources/books/
+      - title: Challenges and Promises of Quality Assurance in Theological Education
+        url: /work/challenges-promises-quality-assurance-theological-education/
+      - title: Ministerial Formation
+        url: /resources/archive/publications/ministerial-formation/
+      - title: Newsletter
+        url: /resources/wocati-newsletter/  
+      - title: Work
+        url: /work/

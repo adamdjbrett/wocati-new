@@ -16,6 +16,9 @@ tags:
   - journal
   - book
   - resources  
+sidebar:
+  title: "About WOCATI"
+  nav: sidebar-about    
 ---
 ## World Conference of Associations of Theological Institutions (WOCATI) Publications Archive
 
