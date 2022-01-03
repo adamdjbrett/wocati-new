@@ -11,8 +11,6 @@ main:
     url: /resources/
   - title: Archive
     url: /resources/archive/
-  - title: Search
-    url: /search/
   - title: Posts
     url: /posts/
   - title: Categories
@@ -51,6 +49,6 @@ sidebar-about:
       - title: Ministerial Formation
         url: /resources/archive/publications/ministerial-formation/
       - title: Newsletter
-        url: /resources/wocati-newsletter/  
+        url: /resources/wocati-newsletter/
       - title: Work
         url: /work/

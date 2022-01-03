@@ -1,7 +1,6 @@
 ---
 ID: 1064
 title: 'The Future of Ecumenism'
-
 excerpt: "WCC 2013 Film"
 permalink: /about/the-future-of-ecumenism/
 date: 2014-06-12 17:33:23
