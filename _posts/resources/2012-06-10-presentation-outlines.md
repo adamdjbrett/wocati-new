@@ -1,6 +1,7 @@
 ---
 ID: 401
 title: 'Presentation Outlines'
+author: adamdjbrett
 excerpt: ""
 permalink: /resources/2011-wocati-consultation/presentation-outlines/
 date: 2012-06-29 02:55:23

@@ -1,6 +1,7 @@
 ---
 ID: 775
 title: 'WOCATI Newsletter'
+author: adamdjbrett
 excerpt: "WOCATI Newsletter"
 permalink: /resources/archive/publications/wocati-newsletter/
 date: 2012-06-30 00:26:52

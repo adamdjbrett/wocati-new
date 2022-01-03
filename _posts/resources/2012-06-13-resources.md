@@ -1,6 +1,7 @@
 ---
 ID: 20
 title: 'Resources'
+author: adamdjbrett
 excerpt: "Full World Conference of Associations of Theological Institutions (WOCATI) Resources"
 permalink: /resources/
 date: 2012-06-19 21:52:09

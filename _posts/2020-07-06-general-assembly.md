@@ -6,6 +6,7 @@ categories:
 tags:
   - minutes
   - General
+author: WOCATI
 ---
 
 ## World Conference of Associated Theological Institutions General Assembly Minutes

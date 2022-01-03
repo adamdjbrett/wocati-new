@@ -15,6 +15,7 @@ tags:
   - ecumenics
   - prizes
   - WOCATI
+author: WOCATI
 ---
 The Academic Council of AISR has established two kinds of Awards for “scholarly excellence in theological and religious sciences work contributing to the ecumenical understanding and dialogue”:
 

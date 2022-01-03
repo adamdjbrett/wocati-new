@@ -1,6 +1,7 @@
 ---
 ID: 801
 title: 'Ministerial Formation'
+author: adamdjbrett
 excerpt: "WCC Ministerial Formation publication"
 permalink: /resources/archive/publications/ministerial-formation/
 date: 2012-06-30 00:31:13

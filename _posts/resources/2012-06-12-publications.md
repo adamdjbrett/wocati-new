@@ -1,6 +1,7 @@
 ---
 ID: 778
 title: 'Publications'
+author: adamdjbrett
 excerpt: "Books, Journals, and other publications"
 permalink: /resources/archive/publications/
 date: 2012-06-30 00:26:32
