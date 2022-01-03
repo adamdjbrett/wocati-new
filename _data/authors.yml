@@ -3,7 +3,7 @@
 adamdjbrett:
     name: Adam DJ Brett
     avatar : "https://www.adamdjbrett.com/assets/img/adam-dj-brett-256x256-min.jpg"
-    bio    : "I am a Ph.D. Candidate in the Religion Department at Syracuse University where I study American Religion.."
+    bio    : "I am a Ph.D. Candidate in the Religion Department at Syracuse University where I study American Religion."
     links:
       - label: "Website"
         icon: "fas fa-fw fa-link"
@@ -22,7 +22,7 @@ adamdjbrett:
 WOCATI:
   name: WOCATI
   email: hello@wocati.org
-  bio: "I ordered what?"
+  bio: "The main goal of World Conference of Associated Theological Institutions (WOCATI) is to serve the needs and aspirations of its member associations and their institutions, schools and centres"
   avatar: international-200x200.png
   twitter: wocati
   facebook: wocati
