@@ -61,6 +61,11 @@ plugins:
   - jekyll-include-cache
   - jekyll-redirect-from
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-LVZ5Z9VB47"
+    anonymize_ip: false # default
 
 footer:
   links:
