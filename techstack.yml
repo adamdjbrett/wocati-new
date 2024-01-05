@@ -1,12 +1,26 @@
 repo_name: adamdjbrett/wocati-new
 report_id: f4707a4fe48d5ee331c71d3f34a3aef7
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-15T03:26:08+00:00'
+timestamp: '2024-01-05T08:43:51+00:00'
 requested_by: adamdjbrett
 provider: github
 branch: master
-detected_tools_count: 106
+detected_tools_count: 157
 tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/json-2.3.1/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/json-2.3.1/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
     functions
@@ -16,7 +30,21 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/execjs-2.7.0/lib/execjs/support/json2.js
   detection_source: vendor/bundle/ruby/2.6.0/gems/execjs-2.7.0/lib/execjs/support/json2.js
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: Ruby
@@ -28,6 +56,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new
   detection_source: Repo Metadata
 - name: Sinatra
   description: Classy web-development dressed in a DSL
@@ -38,7 +67,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/999/logo.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/ethon-0.12.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/ethon-0.12.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: Redis
@@ -50,9 +80,22 @@ tools:
   category: Data Stores
   sub_category: In-Memory Databases
   image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/humans.txt
+  detection_source: humans.txt
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 22:39:05.000000000 Z
 - name: Bundler
   description: 'A consistent environment for tracking and installing  gems and versions '
   website_url: http://bundler.io
@@ -61,7 +104,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/2988/4e77LXIo_400x400.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: CMake
@@ -72,6 +116,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/2424/0UlUI_y1_400x400.jpg
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/mini_portile2-2.4.0/test/assets/test-cmake-1.0/CMakeLists.txt
   detection_source: vendor/bundle/ruby/2.6.0/gems/mini_portile2-2.4.0/test/assets/test-cmake-1.0/CMakeLists.txt
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -83,6 +128,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/305/KFgYaUkK.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/forwardable-extended-2.6.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/forwardable-extended-2.6.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -94,6 +140,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/public_suffix-3.1.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/public_suffix-3.1.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -105,7 +152,33 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new
   detection_source: Repo Metadata
+- name: Pow
+  description: Zero-configuration Rack server for Mac OS X
+  website_url: http://pow.cx/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/2345/pow.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: RSpec
   description: Behaviour Driven Development for Ruby
   website_url: https://rspec.info/
@@ -115,7 +188,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Testing Frameworks
   image_url: https://img.stackshare.io/service/2539/logo.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: RuboCop
@@ -127,7 +201,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/2643/rubocop.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/ruby-enum-0.8.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/forwardable-extended-2.6.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/forwardable-extended-2.6.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: RubyGems
@@ -138,7 +213,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
-  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: Travis CI
@@ -150,7 +226,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/.travis.yml
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/.travis.yml
+  detection_source: vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/.travis.yml
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: Visual Studio
@@ -162,6 +239,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Integrated Development Environment
   image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/libffi/msvc_build/aarch64/Ffi_staticLib.sln
   detection_source: vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/ext/ffi_c/libffi/msvc_build/aarch64/Ffi_staticLib.sln
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -175,7 +253,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Git Tools
   image_url: https://img.stackshare.io/no-img-open-source.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: npm
@@ -186,9 +265,44 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/pathutil-0.16.2/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/pathutil-0.16.2/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: Algolia
+  description: Developer-friendly API and complete set of tools for building search
+  website_url: https://www.algolia.com/?utm_source=stackshare&utm_medium=referral
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/589/default_452afb716f8f4b904f267638e5c6b9172f9fa06d.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: MarkUp
+  description: Turn your website into a dynamic canvas ready for feedback
+  website_url: https://www.markup.io/
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: Feedback Widget
+  image_url: https://img.stackshare.io/service/11902/4p4A_2bO_400x400.jpg
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/_includes/footer.html
+  detection_source: _includes/footer.html
+  last_updated_by: adamdjbrett
+  last_updated_on: 2022-01-03 20:56:19.000000000 Z
 - name: Jekyll
   description: Blog-aware, static site generator in Ruby
   website_url: http://jekyllrb.com/
@@ -198,7 +312,56 @@ tools:
   category: Application Utilities
   sub_category: Static Site Generators
   image_url: https://img.stackshare.io/service/1114/ad968c1615d956e800fa36494314f48c.jpeg
-  detection_source: vendor/bundle/ruby/2.6.0/gems/jekyll-sitemap-1.4.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/jekyll-avatar-0.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/jekyll-avatar-0.7.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/humans.txt
+  detection_source: humans.txt
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 22:39:05.000000000 Z
+- name: Marker
+  description: " Visual bug reporting tool"
+  website_url: https://getmarker.io
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/5981/LTXhWoX__normal.jpg
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: Q
+  description: A promise library for JavaScript
+  website_url: https://github.com/kriskowal/q
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/4697/default_2d5a1d7c5eb520cdeb7db120e767345004a1d0d4.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: Wit
+  description: Natural Language for the Internet of Things. Turn speech into actionable
+    data
+  website_url: https://wit.ai/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: NLP / Sentiment Analysis
+  image_url: https://img.stackshare.io/service/767/Qe0MWT5x.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: RedCloth
@@ -210,6 +373,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18977/default_bc359c39d5bb5b07850d1bca94ab8afbc55734a2.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -223,6 +387,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18817/default_b17f14dbef6c1275120b34d9ec2eff5942499bd5.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -236,7 +401,21 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18870/default_63d360ffaa27bed91e2b067fb467407b5c9da0ed.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/dnsruby-1.61.3/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/dnsruby-1.61.3/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: algoliasearch
+  description: A simple Ruby client for the algolia.com REST API
+  package_url: https://rubygems.org/algoliasearch
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: ansi
@@ -249,6 +428,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19122/default_d2b4d93235150c0c739d1d6253ddbf24e4fec4f7.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/pathutil-0.16.2/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/pathutil-0.16.2/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -262,6 +442,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18877/default_d416e715a80ce80ae31b87cff032f5873c8a9d2a.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -274,6 +455,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19228/default_df0c87c1d1c9c662c2ad960d8e93130abb553ed2.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -286,7 +468,22 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19069/default_5f9f148b380c6e53dd11ecf4121a9aa0355b667e.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/pathutil-0.16.2/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: cli
+  description: Command Line Interface gem allows you to quickly specify command argument
+    parser that will automatically generate usage
+  package_url: https://rubygems.org/cli
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: codeclimate-test-reporter
@@ -299,6 +496,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18852/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/forwardable-extended-2.6.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/forwardable-extended-2.6.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -311,6 +509,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19702/default_e4623cf87b5c0bb8667c5069c20ee5d59d70791d.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -324,7 +523,48 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18968/default_20d16c1471b93397c8ef93b19baf0989f59663c0.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: concurrent-ruby-edge
+  description: These features are under active development and may change frequently
+  package_url: https://rubygems.org/concurrent-ruby-edge
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: concurrent-ruby-ext
+  description: C extensions to optimize the concurrent-ruby gem when running under
+    MRI
+  package_url: https://rubygems.org/concurrent-ruby-ext
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: coolline
+  description: A readline-like library that allows to change how the input is displayed
+  package_url: https://rubygems.org/coolline
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: coveralls
@@ -336,7 +576,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18833/default_8c2fa81d8b8e48c679685199823ce30d598d3e87.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: curb
@@ -348,6 +589,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18946/default_611c0295e32d1242505cbb0d769e587d60851eda.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/ethon-0.12.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/ethon-0.12.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -360,7 +602,34 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19097/default_a446ce2f074889d1160eee4b4a2fde34af7525e6.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: down
+  description: Robust streaming downloads using Net::HTTP, HTTP.rb or wget
+  package_url: https://rubygems.org/down
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: eco
+  description: Ruby Eco is a bridge to the official JavaScript Eco compiler
+  package_url: https://rubygems.org/eco
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: em-http-request
@@ -372,6 +641,19 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18996/default_33b08efb2463b893403b434b8c4275715d78743b.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: em-spec
+  description: Simple BDD API for testing asynchronous Ruby/EventMachine code
+  package_url: https://rubygems.org/em-spec
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -384,6 +666,20 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19179/default_b505bfc0bd545bd0c4d20c61b61d3072a68d82c9.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: em-websocket-client
+  description: A WebSocket client implementation for EventMachine
+  package_url: https://rubygems.org/em-websocket-client
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -396,6 +692,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19320/default_31ccb7684f50eae9f0c40cb9965cc32299f8935e.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -408,7 +705,21 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19405/default_93a5384b42497ad87be72500031e5628afd8380d.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: etc
+  description: Provides access to information typically stored in UNIX /etc directory
+  package_url: https://rubygems.org/etc
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: faraday
@@ -420,6 +731,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18835/default_0e382579c2f0564abd86ba662410379f1d623a9c.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -432,6 +744,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19534/default_afbfef6f9528cdec6916c14cc6d3b3310a07088f.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -444,7 +757,22 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19375/default_a6357952cecd3d7f5f139b05b2b322f8db813eda.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: github
+  description: The official `github` command line helper for simplifying your GitHub
+    experience
+  package_url: https://rubygems.org/github
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: github-markup
@@ -457,9 +785,23 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18965/default_58b662594c9bbf9376425b9e1bb56dd05ea545dd.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: github-pages
+  description: Bootstrap the GitHub Pages Jekyll environment locally
+  package_url: https://rubygems.org/github-pages
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Adam DJ Brett
+  last_updated_on: 2020-07-06 22:01:34.000000000 Z
 - name: guard
   description: Guard is a command line tool to easily handle events on file system
     modifications
@@ -470,6 +812,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18840/default_1d2091bec60de04a519a030cf3cb21ea7f86b28a.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -482,6 +825,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18831/default_8c2fa81d8b8e48c679685199823ce30d598d3e87.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -495,6 +839,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19406/default_93a5384b42497ad87be72500031e5628afd8380d.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -508,7 +853,21 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18857/default_8ed4d900247cd3cbcebc45138514f25fd80b6c4b.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: hen
+  description: A Rake helper framework, similar to Hoe or Echoe
+  package_url: https://rubygems.org/hen
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/json-2.3.1/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/json-2.3.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: her
@@ -520,7 +879,22 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19631/default_42ef8566532887684b2ab0113dbe8f8a4ea1e825.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: heredoc_unindent
+  description: This gem removes common margin from indented strings, such as the ones
+    produced by indented heredocs
+  package_url: https://rubygems.org/heredoc_unindent
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: highline
@@ -533,6 +907,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18866/default_2fe576f13c88e20e645ee0a744c045ee730bcad6.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -545,6 +920,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19386/default_b0770ebdd12e1eb479a98261d0175b1714524f87.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -557,7 +933,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18938/default_9835367d7a13be70dd38d3b7dfa4b8514b31a43d.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: irb
@@ -569,7 +946,21 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19651/default_031d700d5f589b872d1d7b6f6ef54682aec7dc44.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: its
+  description: You can write `its
+  package_url: https://rubygems.org/its
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: jekyll-feed
@@ -581,6 +972,20 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19149/default_b0a1033a29112f6f50b1dd3157e5fbf94dd2778a.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Adam DJ Brett
+  last_updated_on: 2020-07-06 22:01:34.000000000 Z
+- name: jekyll-gist
+  description: Liquid tag for displaying GitHub Gists in Jekyll sites
+  package_url: https://rubygems.org/jekyll-gist
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Adam DJ Brett
   last_updated_on: 2020-07-06 22:01:34.000000000 Z
@@ -593,7 +998,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19371/default_ac0591cdb829f62a4300d942f96aea1bb642351d.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/jekyll-paginate-1.1.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/Gemfile
+  detection_source: Gemfile
   last_updated_by: Adam DJ Brett
   last_updated_on: 2020-07-06 22:01:34.000000000 Z
 - name: jekyll-sitemap
@@ -605,6 +1011,20 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19321/default_31ccb7684f50eae9f0c40cb9965cc32299f8935e.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: Adam DJ Brett
+  last_updated_on: 2020-07-06 22:01:34.000000000 Z
+- name: jemoji
+  description: GitHub-flavored emoji plugin for Jekyll
+  package_url: https://rubygems.org/jemoji
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/Gemfile
   detection_source: Gemfile
   last_updated_by: Adam DJ Brett
   last_updated_on: 2020-07-06 22:01:34.000000000 Z
@@ -617,6 +1037,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18826/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -629,7 +1050,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18822/default_19184669508c0f71aec9521d5f14d71b77203130.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/ethon-0.12.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/ethon-0.12.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: json_pure
@@ -641,6 +1063,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18931/default_349d06778b360a668b507af3dec2254ee6af634a.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/json-2.3.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/json-2.3.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -653,6 +1076,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18939/default_9835367d7a13be70dd38d3b7dfa4b8514b31a43d.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -666,6 +1090,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18893/default_421783d7f975d1b076f260bea1d42f0b2621ca39.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -678,7 +1103,21 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19286/default_ac42935b3c127ddbb54411fa307a9bc56ea68440.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/colorator-1.1.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/colorator-1.1.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: luna-rspec-formatters
+  description: RSpec formatters that are dedicated to Luna
+  package_url: https://rubygems.org/luna-rspec-formatters
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/colorator-1.1.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/colorator-1.1.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: m
@@ -690,7 +1129,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19334/default_b5954b79fd4e91f3072bc3138e733e2e51071020.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: mail
@@ -702,6 +1142,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18937/default_ec64e7b00489c2b012b637eba2526e31e442c25b.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -714,7 +1155,21 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19646/default_47f7624d8dd082563ff41af94588a6523099beae.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: mem
+  description: Memoize any method call
+  package_url: https://rubygems.org/mem
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/public_suffix-3.1.1/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/public_suffix-3.1.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: memory_profiler
@@ -726,7 +1181,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19745/default_9441b9831c402e8b1bbbeac1030603f41221911e.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/public_suffix-3.1.1/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/public_suffix-3.1.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: mercenary
@@ -738,7 +1194,21 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19524/default_1ac80bcceca19fc3955ee33a26814ab8de230f7e.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/mercenary-0.3.6/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/mercenary-0.3.6/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: mime
+  description: A library for building RFC compliant Multipurpose Internet Mail Extensions
+  package_url: https://rubygems.org/mime
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: mime-types
@@ -751,7 +1221,34 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18884/default_5eea69864b07424ee9f6cd5c0e7cb7227f1b4579.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/ethon-0.12.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: mini_portile
+  description: Simplistic port-like solution for developers
+  package_url: https://rubygems.org/mini_portile
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/mini_portile2-2.4.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/mini_portile2-2.4.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: mini_portile2
+  description: Simplistic port-like solution for developers
+  package_url: https://rubygems.org/mini_portile2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/mini_portile2-2.4.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/mini_portile2-2.4.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: minitest
@@ -764,7 +1261,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18818/default_f36df1cfa9ff6061d7f9b4879088be8538581c49.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/sawyer-0.8.2/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: minitest-focus
@@ -777,6 +1275,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19245/default_518f3430d0c3ea4653c591ebd7e75da67f51cfaf.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -789,6 +1288,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19676/default_11018043ff3f5c55e46d246b63001e4be3690fcc.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -802,7 +1302,20 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18888/default_1e22ca9f3f63a8c93249bae500705b9451e7e882.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/public_suffix-3.1.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/public_suffix-3.1.1/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: moji
+  description: Character type classification/conversion for Japanese
+  package_url: https://rubygems.org/moji
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: mspec
@@ -814,7 +1327,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19177/default_4d75d07c660d7931fea130f6bce1753509b454d5.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: mustermann
@@ -826,7 +1340,20 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19647/default_6463a3efe7889baeeb046f0c4ec90a9744c6086a.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/ethon-0.12.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/ethon-0.12.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: need
+  description: "== DESCRIPTION: Need makes ruby relative requires just work"
+  package_url: https://rubygems.org/need
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: oj
@@ -838,7 +1365,21 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18910/default_b76f924b2976860f8be50e4adb06ebfdc8ab90ac.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: om
+  description: OM
+  package_url: https://rubygems.org/om
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: os
@@ -850,6 +1391,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19087/default_54dcdbda5f19ac7cce7dfde7a31f57a35d2cdc2f.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -862,6 +1404,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18994/default_33b08efb2463b893403b434b8c4275715d78743b.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -874,7 +1417,21 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19098/default_c79cdbecd755f1567525da31906de0b95f65de72.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: path
+  description: Path is a library to easily manage paths and with a lot of extra goodness
+  package_url: https://rubygems.org/path
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: patron
@@ -886,7 +1443,35 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19260/default_64bfa7dff51ebcfaf31eb5005cda9a1de564987d.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/ethon-0.12.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/ethon-0.12.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: platform
+  description: This gem provides all necessary tools to make a Rails application into
+    a platform with third party applications
+  package_url: https://rubygems.org/platform
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: power_assert
+  description: Power Assert for Ruby
+  package_url: https://rubygems.org/power_assert
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: pry
@@ -898,7 +1483,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18815/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/colorator-1.1.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/colorator-1.1.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: pry-coolline
@@ -910,7 +1496,35 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19648/default_6463a3efe7889baeeb046f0c4ec90a9744c6086a.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: qu
+  description: A Ruby library for queuing and processing background jobs with configurable
+    backends
+  package_url: https://rubygems.org/qu
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: que
+  description: A job queue that uses PostgreSQL's advisory locks for speed and reliability
+  package_url: https://rubygems.org/que
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: rack
@@ -923,6 +1537,20 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18839/default_db5cfb0d85d9fd8bfb40a863581417a2a57791ab.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: rack-mount
+  description: A stackable dynamic tree based Rack router
+  package_url: https://rubygems.org/rack-mount
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -935,7 +1563,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: rake-compiler
@@ -947,7 +1576,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18881/default_b1cb499f3e62fe773109c989f76e3365fbe49857.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: rake-compiler-dock
@@ -960,7 +1590,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19602/default_ad0710c65b106932707389deb3b2e0b93a1ef7b6.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: rb-fsevent
@@ -972,6 +1603,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18902/default_4bb00167954f5d9dd5673b34db3ced31ee000cb4.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -984,7 +1616,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18829/default_ba8d7756589e5fc0164687950e3f091b32554546.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: redcarpet
@@ -996,7 +1629,21 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18853/default_b87d202e13d56f87c63181fa49bc5e099c9abaac.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: require
+  description: Manage your project's dependencies with a pretty DSL
+  package_url: https://rubygems.org/require
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: rinku
@@ -1009,7 +1656,21 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19769/default_a49e0df53f26b21a9f5f65436125cec5e48b49af.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: rom
+  description: Persistence and mapping toolkit for Ruby
+  package_url: https://rubygems.org/rom
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: rouge
@@ -1021,6 +1682,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19110/default_06b56c3cf87200ea8cc83429c79e5c5533c80ede.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1034,6 +1696,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18915/default_353d3fd998e68372ebd6d80dbb4c0632f387d091.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1046,6 +1709,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18880/default_b1cb499f3e62fe773109c989f76e3365fbe49857.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1059,7 +1723,21 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18978/default_eb163f66039a75cd168fad8a88ccdb68b82bccff.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/ffi-1.13.1/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: rubysl
+  description: Ruby 2.0+ standard library meta-spec
+  package_url: https://rubygems.org/rubysl
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: safe_yaml
@@ -1071,6 +1749,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19221/default_b7db538e9852f98777d0e0bd76581546262ce92e.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/pathutil-0.16.2/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/pathutil-0.16.2/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1083,6 +1762,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19061/default_5739fe334ed718fddcfdaaefc58a5ee795a7f605.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/html-pipeline-2.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1095,7 +1775,22 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19213/default_e8ac24f22f88ea3b04a85afe7ad222faed6d5605.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: sigdump
+  description: Setup signal handler which dumps backtrace of running threads and number
+    of allocated objects per class
+  package_url: https://rubygems.org/sigdump
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: simplecov
@@ -1108,7 +1803,34 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18819/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: spec
+  description: Modified minitest for Appium
+  package_url: https://rubygems.org/spec
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: spoon
+  description: Spoon is an FFI binding of the posix_spawn function
+  package_url: https://rubygems.org/spoon
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: spork
@@ -1120,6 +1842,20 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19066/default_caa1b13a6ba2271b33fd22cf8d7e73bec9616bff.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: test
+  description: The Test library/repository/gem is a testbed project, for use by any
+    other project that needs an external project to test itself against
+  package_url: https://rubygems.org/test
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1132,6 +1868,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18900/default_f0ad2b1ffbe10fdd866f9f8e5f812599d9e8085b.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1145,6 +1882,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18861/default_96cb61a9c0f8ef41b80df83209dca4f4c229184e.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1157,6 +1895,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19214/default_15c3a51257013e2e7ba4ef494d65d6be669bdcc0.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/terminal-table-1.8.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/terminal-table-1.8.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1169,7 +1908,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19112/default_c404399f249c45bc71a2c704a4b9bc234dcaac3e.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: travis-lint
@@ -1181,6 +1921,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19364/default_e0a07732e2be5120cb51914c03aa1751c6b0201c.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1193,6 +1934,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19754/default_3698a188ebc455040a6f771f76bcb8ed99199d5f.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1206,6 +1948,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19138/default_8dfa87240818385496427db2d6489b2c70b1c02a.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/rb-inotify-0.10.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1219,6 +1962,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18981/default_eb163f66039a75cd168fad8a88ccdb68b82bccff.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/jekyll-feed-0.13.0/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/jekyll-feed-0.13.0/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1232,7 +1976,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19516/default_07037590725b871de29c1d2ebb4610950e953355.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/jekyll-feed-0.13.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/Gemfile
+  detection_source: Gemfile
   last_updated_by: Adam DJ Brett
   last_updated_on: 2020-07-06 22:01:34.000000000 Z
 - name: unindent
@@ -1244,6 +1989,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19790/default_dc562522bb8e27795ab379270f6698f9b4f29fa5.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/safe_yaml-1.0.5/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1256,7 +2002,8 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19272/default_209999e183f7dadfc9e8afe0cc496669c084cb36.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/typhoeus-1.4.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/concurrent-ruby-1.1.6/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
 - name: webmock
@@ -1269,6 +2016,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18824/default_6564ae059af6c4ea7065fd2329370c7a05341cf8.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/algoliasearch-1.27.3/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1281,6 +2029,7 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/19600/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
   detection_source: vendor/bundle/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
@@ -1293,6 +2042,20 @@ tools:
   category: Libraries
   sub_category: RubyGems Packages
   image_url: https://img.stackshare.io/package/18825/default_b8fbb83e23c963442e15398c5b56262cc6267d6f.png
-  detection_source: vendor/bundle/ruby/2.6.0/gems/rouge-3.19.0/Gemfile
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/addressable-2.7.0/Gemfile
+  last_updated_by: adamdjbrett
+  last_updated_on: 2020-07-06 23:21:11.000000000 Z
+- name: yt
+  description: Youtube V3 API client
+  package_url: https://rubygems.org/yt
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/rubygems/image.png
+  detection_source_url: https://github.com/adamdjbrett/wocati-new/blob/master/vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
+  detection_source: vendor/bundle/ruby/2.6.0/gems/verbal_expressions-0.1.5/Gemfile
   last_updated_by: adamdjbrett
   last_updated_on: 2020-07-06 23:21:11.000000000 Z
