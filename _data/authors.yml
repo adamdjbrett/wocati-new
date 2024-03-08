@@ -3,7 +3,7 @@
 adamdjbrett:
     name: Adam DJ Brett
     avatar : "/images/adam-dj-brett-256x256-min.jpg"
-    bio    : "I am a Ph.D. Candidate in the Religion Department at Syracuse University where I study American Religion."
+    bio    : "I hold a Ph.D. in Religion from Syracuse University."
     links:
       - label: "Website"
         icon: "fas fa-fw fa-link"
