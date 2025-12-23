@@ -1,0 +1,18 @@
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/abrett76/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251222-30467-zcn94y sitelibdir\=./.gem.20251222-30467-zcn94y clean
+
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251222-30467-zcn94y sitelibdir\=./.gem.20251222-30467-zcn94y
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251222-30467-zcn94y sitelibdir\=./.gem.20251222-30467-zcn94y install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20251222-30467-zcn94y/racc
+
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251222-30467-zcn94y sitelibdir\=./.gem.20251222-30467-zcn94y clean

@@ -1,0 +1,14 @@
+---
+layout: null
+permalink: /citations.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% assign citation_files = site.static_files | where_exp: "file", "file.path contains '/assets/citations/'" | sort: "path" %}
+{% for file in citation_files %}
+	<url>
+		<loc>{{ file.path | absolute_url }}</loc>
+		<lastmod>{{ file.modified_time | date_to_xmlschema }}</lastmod>
+	</url>
+{% endfor %}
+</urlset>

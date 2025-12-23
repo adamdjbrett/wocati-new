@@ -1,0 +1,19 @@
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/abrett76/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251222-30467-cgkvvf sitelibdir\=./.gem.20251222-30467-cgkvvf clean
+
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251222-30467-cgkvvf sitelibdir\=./.gem.20251222-30467-cgkvvf
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251222-30467-cgkvvf sitelibdir\=./.gem.20251222-30467-cgkvvf install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20251222-30467-cgkvvf
+
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251222-30467-cgkvvf sitelibdir\=./.gem.20251222-30467-cgkvvf clean

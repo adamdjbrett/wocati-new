@@ -1,0 +1,23 @@
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/Users/abrett76/.rbenv/versions/3.3.0/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20251222-30467-wyo9y7 sitelibdir\=./.gem.20251222-30467-wyo9y7 clean
+
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20251222-30467-wyo9y7 sitelibdir\=./.gem.20251222-30467-wyo9y7
+compiling ruby_http_parser.c
+ruby_http_parser.c:365:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'long' [-Wsign-compare]
+  365 |     if (nparsed < len)
+      |         ~~~~~~~ ^ ~~~
+1 warning generated.
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20251222-30467-wyo9y7 sitelibdir\=./.gem.20251222-30467-wyo9y7 install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20251222-30467-wyo9y7
+
+current directory: /Users/abrett76/github/wocati-new/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20251222-30467-wyo9y7 sitelibdir\=./.gem.20251222-30467-wyo9y7 clean

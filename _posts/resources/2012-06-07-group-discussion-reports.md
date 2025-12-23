@@ -18,7 +18,7 @@ toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 
 On Tuesday, July 5, 2011, the overall theme was “What Constitutes _Quality_ in Theological Education.”  In the afternoon session, the participants divided into groups and collectively identified important issues from the day’s presentations.
 
-## **Group 1**
+## Group 1
 
 1.  Respect for gender.  Gender sensitivity when reading Scripture.
 2.  Issues of capacity and scarcity.  What do you do when you can’t find qualified faculty and do not have sufficient resources?
@@ -26,7 +26,7 @@ On Tuesday, July 5, 2011, the overall theme was “What Constitutes _Quality_ in
 4.  Quality criteria for quality assurance in theological education.
 5.  Doing theology to meet the needs of society.  Education for transformation.
 
-##  **Group 2**
+## Group 2
 
 1.  The complexity of quality in theological education.  Multidimensional.
 2.  Ministry without passport = theologians and religious leaders who know no borders.
@@ -34,7 +34,7 @@ On Tuesday, July 5, 2011, the overall theme was “What Constitutes _Quality_ in
 4.  The gap between theory and practice in theological education.
 5.  Quality theological education should include both laity and candidates for ordination.
 
-## **Group 3**
+## Group 3
 
 1.  Quality of theological education
     1.  Methodology.
@@ -50,7 +50,7 @@ On Tuesday, July 5, 2011, the overall theme was “What Constitutes _Quality_ in
     1.  A common path in which common guidelines may be outlined for further discussion in the associations.
     2.  We proposed that there be a common charter on guidelines on theological education.
 
-## **Group 4**
+## Group 4
 
 1.  Theological education should serve to transform society for the better.  Social transformation is an important factor when evaluating the quality of theological education.
 2.  Theology has a public role to play in society.  There is need to communicate critical methodological skills in theological education that will enable students to address and articulate meaningfully the issues they confront in their societies/contexts.

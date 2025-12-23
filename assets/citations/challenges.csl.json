@@ -1,0 +1,40 @@
+[
+	{
+		"id": "http://zotero.org/users/2764967/items/YU7IEG8E",
+		"type": "book",
+		"archive": "Internet Archive",
+		"event-place": "Fort Worth, TX, USA",
+		"ISBN": "978-0-615-77088-8",
+		"language": "English",
+		"license": "CC 3.0 Attribution-No Derivative Works",
+		"number-of-pages": "217",
+		"publisher": "WOCATI",
+		"publisher-place": "Fort Worth, TX, USA",
+		"title": "Challenges and Promises of Quality Assurance in Theological Education: Multicontextual and Ecumenical Inquiries",
+		"title-short": "Challenges and Promises of Quality Assurance in Theological Education",
+		"URL": "https://archive.org/details/ChallengesAndPromisesOfQualityAssuranceInTheologicalEducation",
+		"author": [
+			{
+				"literal": "World Conference of Associated Theological Institutions (WOCATI)"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2025",
+					12,
+					1
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2013",
+					3,
+					14
+				]
+			]
+		}
+	}
+]
