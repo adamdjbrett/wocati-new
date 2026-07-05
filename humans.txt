@@ -2,12 +2,10 @@
 layout: null
 ---
 /* TEAM */
-{% for contributor in site.github.contributors %}
-Name: {{ contributor.login }}
-Site: {{ contributor.html_url }}
-{% endfor %}
+Name: {{ site.title }}
+Site: {{ site.url }}
 
 /* SITE */
 Last Updated: {{ site.time | date:"%Y/%m/%d" }}
 Standards: HTML5, CSS3
-Components: {% for dependency in site.github.versions %}{{ dependency[0] }}{% if forloop.rindex0 > 0 %}, {% endif %}{% endfor %}
+Components: Jekyll, Minimal Mistakes
