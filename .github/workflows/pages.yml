@@ -27,7 +27,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.3"
-          bundler-cache: true
+          bundler-cache: false
+
+      - name: Install dependencies
+        run: |
+          bundle config set path .bundle/gems
+          bundle install --jobs 4 --retry 3
 
       - name: Configure Pages
         id: pages
