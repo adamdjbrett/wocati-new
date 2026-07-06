@@ -5299,4 +5299,141 @@ textarea {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
 }
 
+/* WOCATI AAA contrast accessibility overrides */
+:root {
+  --wocati-aaa-text: #243036;
+  --wocati-aaa-muted: #3d474d;
+  --wocati-aaa-link: #174f5f;
+  --wocati-aaa-link-hover: #0f3844;
+  --wocati-aaa-fill: #3d4144;
+  --wocati-aaa-border: #6a7378;
+}
+
+body {
+  color: var(--wocati-aaa-text);
+}
+
+a,
+.page__content a,
+.archive__item-title a,
+.site-title,
+.greedy-nav a,
+.breadcrumbs a,
+.taxonomy__index a,
+.author__urls a,
+.toc .nav__title,
+.toc a {
+  color: var(--wocati-aaa-link);
+}
+
+a:hover,
+a:focus,
+.page__content a:hover,
+.page__content a:focus,
+.archive__item-title a:hover,
+.archive__item-title a:focus,
+.greedy-nav a:hover,
+.greedy-nav a:focus,
+.breadcrumbs a:hover,
+.breadcrumbs a:focus,
+.taxonomy__index a:hover,
+.taxonomy__index a:focus,
+.author__urls a:hover,
+.author__urls a:focus,
+.toc a:hover,
+.toc a:focus {
+  color: var(--wocati-aaa-link-hover);
+}
+
+.page__meta,
+.page__date,
+.page__footer,
+.archive__item-excerpt,
+.breadcrumbs,
+.author__bio,
+.sidebar,
+.taxonomy__count,
+.pagination--pager.disabled,
+.pagination a.disabled {
+  color: var(--wocati-aaa-muted);
+}
+
+.btn,
+.pagination--pager,
+.pagination a {
+  color: #fff;
+  background-color: var(--wocati-aaa-fill);
+  border-color: var(--wocati-aaa-fill);
+}
+
+.btn:hover,
+.btn:focus,
+.pagination--pager:hover,
+.pagination--pager:focus,
+.pagination a:hover,
+.pagination a:focus {
+  color: #fff;
+  background-color: #2d3134;
+  border-color: #2d3134;
+}
+
+.pagination--pager.disabled,
+.pagination a.disabled,
+.pagination a.current {
+  color: var(--wocati-aaa-muted);
+  background-color: #fff;
+  border-color: var(--wocati-aaa-border);
+  opacity: 1;
+}
+
+.search__toggle,
+.greedy-nav__toggle {
+  color: var(--wocati-aaa-link);
+  background-color: transparent;
+}
+
+.search__toggle:hover,
+.search__toggle:focus,
+.greedy-nav__toggle:hover,
+.greedy-nav__toggle:focus {
+  color: var(--wocati-aaa-link-hover);
+}
+
+.btn--twitter,
+.btn--bluesky,
+.btn--info {
+  color: #fff;
+  background-color: #145d8f;
+  border-color: #145d8f;
+}
+
+.btn--warning {
+  color: #fff;
+  background-color: #8a5200;
+  border-color: #8a5200;
+}
+
+.btn--danger {
+  color: #fff;
+  background-color: #8f302d;
+  border-color: #8f302d;
+}
+
+.btn--success {
+  color: #fff;
+  background-color: #236d23;
+  border-color: #236d23;
+}
+
+.btn--inverse {
+  color: #fff;
+  background-color: #243036;
+  border-color: #243036;
+}
+
+.btn--light-outline {
+  color: #fff;
+  border-color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */

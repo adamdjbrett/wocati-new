@@ -9,7 +9,7 @@
         <li><a href="{{ paginator.previous_page_path | relative_url }}">{{ site.data.ui-text[locale].pagination_previous | default: "Previous" }}</a></li>
       {% endif %}
     {% else %}
-      <li><a href="#" class="disabled"><span aria-hidden="true">{{ site.data.ui-text[locale].pagination_previous | default: "Previous" }}</span></a></li>
+      <li><a href="#" class="disabled" aria-label="{{ site.data.ui-text[locale].pagination_previous | default: 'Previous' }} page unavailable" aria-disabled="true" tabindex="-1"><span aria-hidden="true">{{ site.data.ui-text[locale].pagination_previous | default: "Previous" }}</span></a></li>
     {% endif %}
 
     {% comment %} Determine whether the first page and the last page are already included in trail {% endcomment %}
@@ -63,7 +63,7 @@
     {% if paginator.next_page %}
       <li><a href="{{ paginator.next_page_path | remove: 'index.html' | relative_url }}">{{ site.data.ui-text[locale].pagination_next | default: "Next" }}</a></li>
     {% else %}
-      <li><a href="#" class="disabled"><span aria-hidden="true">{{ site.data.ui-text[locale].pagination_next | default: "Next" }}</span></a></li>
+      <li><a href="#" class="disabled" aria-label="{{ site.data.ui-text[locale].pagination_next | default: 'Next' }} page unavailable" aria-disabled="true" tabindex="-1"><span aria-hidden="true">{{ site.data.ui-text[locale].pagination_next | default: "Next" }}</span></a></li>
     {% endif %}
   </ul>
 </nav>
