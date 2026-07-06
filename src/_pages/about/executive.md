@@ -22,7 +22,7 @@ sidebar:
 - [academia.edu](http://auth.academia.edu/PetrosVassiliadis)
 
 
-[![](/wp-content/uploads/2012/06/Nestor-Miguez-120x140.jpg "Nestor Miguez WOCATI, Vice President")](/wp-content/uploads/2012/06/Nestor-Miguez-120x140.jpg)
+[![](/wp-content/uploads/2012/06/Nestor-Miguez.jpg "Nestor Miguez WOCATI, Vice President")](/wp-content/uploads/2012/06/Nestor-Miguez-120x140.jpg)
 
 ### **VICE PRESIDENT/LATIN AMERICA** Prof. Dr. Nestor Oscar Miguez, _(CETELA)_ Phone: +54-11-44690786 email:cetela@est.edu.br    
 
