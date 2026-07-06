@@ -1,0 +1,11 @@
+---
+layout: archive
+---
+{%- assign locale = jpage.locale | default: layout.locale | default: site.locale %}
+
+{{ content }}
+
+{% assign entries_layout = jpage.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include posts-category.html locale=locale taxonomy=jpage.taxonomy type=entries_layout %}
+</div>

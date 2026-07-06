@@ -1,0 +1,21 @@
+{% assign locale = include.locale | default: site.locale %}
+{% if jpage.author_profile or layout.author_profile or jpage.sidebar %}
+  <div class="sidebar sticky">
+  {% if jpage.author_profile or layout.author_profile %}{% include author-profile.html locale=locale %}{% endif %}
+  {% if jpage.sidebar %}
+    {% for s in jpage.sidebar %}
+      {% if s.image %}
+        <img src="{{ s.image | relative_url }}"
+             alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+      {% if s.nav %}{% include nav_list locale=locale nav=s.nav %}{% endif %}
+    {% endfor %}
+    {% if jpage.sidebar.nav %}
+      {% include nav_list locale=locale nav=jpage.sidebar.nav %}
+    {% endif %}
+  {% endif %}
+  {% include sidebar-custom.html %}
+  </div>
+{% endif %}

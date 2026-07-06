@@ -1,0 +1,17 @@
+---
+permalink: /humans.txt
+eleventyExcludeFromCollections: true
+sitemap: false
+---
+/* TEAM */
+Name: {{ site.title }}
+Site: {{ site.url }}
+{% if gitContributors and gitContributors.size > 0 %}
+Contributors:
+{% for contributor in gitContributors %}- {{ contributor }}
+{% endfor %}{% endif %}
+
+/* SITE */
+Last Updated: {{ site.time | date:"%Y/%m/%d" }}
+Standards: HTML5, CSS3
+Components: Build Awesome, Eleventy, Minimal Mistakes

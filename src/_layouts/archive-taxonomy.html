@@ -1,0 +1,30 @@
+---
+layout: default
+author_profile: false
+---
+{%- assign locale = jpage.locale | default: layout.locale | default: site.locale %}
+
+{% if jpage.header.overlay_color or jpage.header.overlay_image or jpage.header.image %}
+  {% include page__hero.html locale=locale %}
+{% elsif jpage.header.video.id and jpage.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% if jpage.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html locale=locale %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html locale=locale %}
+
+  <div class="archive">
+    {% unless jpage.header.overlay_color or jpage.header.overlay_image %}
+      <h1 id="page-title" class="page__title"{% if jpage.locale %} lang="{{ jpage.locale }}"{% endif %}>{{ jpage.title }}</h1>
+    {% endunless %}
+    {% for post in jpage.posts %}
+      {% include archive-single.html locale=locale %}
+    {% endfor %}
+  </div>
+</div>

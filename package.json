@@ -1,0 +1,29 @@
+{
+  "name": "wocati-new",
+  "version": "1.0.0",
+  "description": "World Conference of Associated Theological Institutions (WOCATI) — Build Awesome (Eleventy) site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npx @awesome.me/buildawesome && npx pagefind --site _site",
+    "dev": "npx @awesome.me/buildawesome --serve",
+    "clean": "rm -rf _site"
+  },
+  "dependencies": {
+    "@11ty/eleventy-img": "6.0.4",
+    "@11ty/font-awesome": "1.0.1",
+    "@apleasantview/eleventy-plugin-baseline": "0.1.0-next.44",
+    "@awesome.me/buildawesome": "4.0.0-alpha.10",
+    "js-yaml": "^4.1.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "pagefind": "1.5.2",
+    "sass": "^1.79.0"
+  },
+  "allowScripts": {
+    "@parcel/watcher@2.5.6": true,
+    "esbuild@0.28.1": true,
+    "fsevents@2.3.3": true,
+    "sharp@0.33.5": true
+  }
+}

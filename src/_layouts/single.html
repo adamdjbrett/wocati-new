@@ -1,0 +1,88 @@
+---
+layout: default
+---
+{%- assign locale = jpage.locale | default: layout.locale | default: site.locale %}
+
+{% if jpage.header.overlay_color or jpage.header.overlay_image or jpage.header.image %}
+  {% include page__hero.html locale=locale %}
+{% elsif jpage.header.video.id and jpage.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% assign breadcrumbs_enabled = site.breadcrumbs %}
+{% if jpage.breadcrumbs != null %}
+  {% assign breadcrumbs_enabled = jpage.breadcrumbs %}
+{% endif %}
+{% if jpage.url != "/" and breadcrumbs_enabled %}
+  {% unless paginator %}
+    {% include breadcrumbs.html locale=locale %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html locale=locale %}
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork"{% if jpage.locale %} lang="{{ jpage.locale }}"{% endif %}>
+    {% if jpage.title %}<meta itemprop="headline" content="{{ jpage.title | replace: '|', '&#124;' | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if jpage.excerpt != nil %}<meta itemprop="description" content="{{ jpage.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if jpage.date %}<meta itemprop="datePublished" content="{{ jpage.date | date_to_xmlschema }}">{% endif %}
+    {% if jpage.last_modified_at %}<meta itemprop="dateModified" content="{{ jpage.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      {% unless jpage.header.overlay_color or jpage.header.overlay_image %}
+        <header>
+          {% if jpage.title -%}
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="{{ jpage.url | absolute_url }}" itemprop="url">{{ jpage.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
+          </h1>
+          {%- endif %}
+          {% include page__meta.html locale=locale %}
+        </header>
+      {% endunless %}
+
+      <section class="page__content e-content" itemprop="text">
+        {% if jpage.toc %}
+          <aside class="sidebar__right {% if jpage.toc_sticky %}sticky{% endif %}">
+            <nav class="toc" aria-label="Table of contents">
+              <header><h4 class="nav__title"><i class="fas fa-{{ jpage.toc_icon | default: 'file-alt' }}"></i> {{ jpage.toc_label | default: site.data.ui-text[locale].toc_label | default: "On this page" }}</h4></header>
+              {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
+            </nav>
+          </aside>
+        {% endif %}
+        {{ content }}
+        {% if jpage.link %}<div><a href="{{ jpage.link }}" class="btn btn--primary">{{ site.data.ui-text[locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+      </section>
+
+      <footer class="page__meta">
+        {% if site.data.ui-text[locale].meta_label %}
+          <h4 class="page__meta-title">{{ site.data.ui-text[locale].meta_label }}</h4>
+        {% endif %}
+        {% include page__taxonomy.html locale=locale %}
+        {% include page__date.html locale=locale %}
+      </footer>
+
+      {% if jpage.share %}{% include social-share.html locale=locale %}{% endif %}
+
+      {% include post_pagination.html locale=locale %}
+    </div>
+
+    {% if site.comments.provider and jpage.comments %}
+      {% if jekyll.environment == 'production' %}
+        {% include comments.html locale=locale %}
+      {% else %}
+        <p>
+          Comments are configured with provider: <strong>{{ site.comments.provider }}</strong>,
+          but are disabled in non-production environments.
+        </p>
+      {% endif %}
+    {% endif %}
+  </article>
+
+  {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
+  {% if jpage.id and jpage.related and site.related_posts.size > 0 %}
+    {% include page__related.html locale=locale posts=site.related_posts %}
+  {% comment %}<!-- otherwise show recent posts if no related when `related: true` -->{% endcomment %}
+  {% elsif jpage.id and jpage.related %}
+    {% include page__related.html locale=locale posts=site.posts %}
+  {% endif %}
+</div>

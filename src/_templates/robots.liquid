@@ -1,0 +1,11 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+sitemap: false
+---
+# {{ site.url | default: 'https://www.wocati.org' }}/
+
+User-agent: *
+Disallow:
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

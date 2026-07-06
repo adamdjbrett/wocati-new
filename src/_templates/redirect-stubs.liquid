@@ -1,0 +1,20 @@
+---
+pagination:
+  data: redirects
+  size: 1
+  alias: redirect
+permalink: "{{ redirect.out }}"
+eleventyExcludeFromCollections: true
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="{{ site.locale | default: 'en-US' }}">
+  <meta charset="utf-8">
+  <title>Redirecting&hellip;</title>
+  <link rel="canonical" href="{{ redirect.to | absolute_url }}">
+  <script>location="{{ redirect.location }}"</script>
+  <meta http-equiv="refresh" content="0; url={{ redirect.location }}">
+  <meta name="robots" content="noindex">
+  <h1>Redirecting&hellip;</h1>
+  <a href="{{ redirect.to | absolute_url }}">Click here if you are not redirected.</a>
+</html>

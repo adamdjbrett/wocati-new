@@ -1,0 +1,38 @@
+---
+---
+{%- assign locale = jpage.locale | default: layout.locale | default: site.locale %}
+
+<!doctype html>
+{% include copyright.html %}
+<html lang="{{ locale | replace: '_', '-' | default: 'en' }}" class="no-js" dir="{{ jpage.direction | default: layout.direction | default: site.direction | default: 'ltr' }}">
+  <head>
+    {% include head.html locale=locale %}
+    {% include head/custom.html %}
+  </head>
+
+  <body class="layout--{{ jpage.layout | default: layout.layout }}{% if jpage.classes or layout.classes %}{{ jpage.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {% include skip-links.html locale=locale %}
+    {% include masthead.html locale=locale %}
+
+    <div class="initial-content" data-pagefind-body>
+      {{ content }}
+      {% include after-content.html %}
+    </div>
+
+    {% if site.search == true %}
+      <div class="search-content">
+        {% include search/search_form.html locale=locale %}
+      </div>
+    {% endif %}
+
+    <div id="footer" class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html locale=locale %}
+      </footer>
+    </div>
+
+    {% include scripts.html locale=locale %}
+    {% getBundle "fontawesome" %}
+  </body>
+</html>

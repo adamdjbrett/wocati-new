@@ -1,0 +1,11 @@
+---
+layout: archive
+---
+{%- assign locale = jpage.locale | default: layout.locale | default: site.locale %}
+
+{{ content }}
+
+{% assign entries_layout = jpage.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% include documents-collection.html locale=locale collection=jpage.collection sort_by=jpage.sort_by sort_order=jpage.sort_order type=entries_layout %}
+</div>

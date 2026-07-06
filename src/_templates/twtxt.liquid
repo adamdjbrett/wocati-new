@@ -1,0 +1,11 @@
+---
+permalink: /feeds/twtxt.txt
+eleventyExcludeFromCollections: true
+sitemap: false
+---
+# nick = wocati
+# url = {{ '/feeds/twtxt.txt' | absolute_url }}
+# description = {{ site.description | strip_html | normalize_whitespace }}
+{% for post in site.posts limit: 20 -%}
+{{ post.date | date_to_xmlschema }}	{{ post.title | strip_html | normalize_whitespace }} {{ post.url | absolute_url }}
+{% endfor %}

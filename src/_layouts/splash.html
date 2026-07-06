@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{%- assign locale = jpage.locale | default: layout.locale | default: site.locale %}
+
+{% if jpage.header.overlay_color or jpage.header.overlay_image or jpage.header.image %}
+  {% include page__hero.html locale=locale %}
+{% elsif jpage.header.video.id and jpage.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork"{% if jpage.locale %} lang="{{ jpage.locale }}"{% endif %}>
+    {% if jpage.title %}<meta itemprop="headline" content="{{ jpage.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if jpage.excerpt != nil %}<meta itemprop="description" content="{{ jpage.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if jpage.date %}<meta itemprop="datePublished" content="{{ jpage.date | date_to_xmlschema }}">{% endif %}
+    {% if jpage.last_modified_at %}<meta itemprop="dateModified" content="{{ jpage.last_modified_at | date_to_xmlschema }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+</div>
