@@ -1,4 +1,4 @@
-name: Deploy Jekyll to GitHub Pages
+name: Deploy 11ty to GitHub Pages
 
 on:
   push:
@@ -21,33 +21,32 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v7
+        uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          ruby-version: "3.3"
-          bundler-cache: false
+          node-version: "22"
+          cache: npm
 
       - name: Install dependencies
-        run: |
-          bundle config set path .bundle/gems
-          bundle install --jobs 4 --retry 3
+        run: npm ci
 
       - name: Configure Pages
         id: pages
-        uses: actions/configure-pages@v6
+        uses: actions/configure-pages@v5
         with:
           enablement: true
 
       - name: Build site
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: npm run build
         env:
+          NODE_ENV: production
           JEKYLL_ENV: production
           PAGES_REPO_NWO: ${{ github.repository }}
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v5
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./_site
 
@@ -61,4 +60,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
