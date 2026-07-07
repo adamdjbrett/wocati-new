@@ -2278,6 +2278,12 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   min-height: 2em;
   background: #fff;
 }
+.js .masthead {
+  min-height: 74px;
+}
+.js .greedy-nav {
+  min-height: 44px;
+}
 .greedy-nav a {
   display: block;
   margin: 0 1rem;
@@ -2292,18 +2298,28 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 .greedy-nav a.site-logo {
   margin-inline-start: 0;
   margin-inline-end: 0.5rem;
+  flex: 0 0 auto;
 }
 .greedy-nav a.site-title {
   margin-inline-start: 0;
+  flex: 0 0 auto;
 }
 .greedy-nav img {
   -webkit-transition: none;
   transition: none;
 }
+.greedy-nav .site-logo img {
+  display: block;
+  width: 44px;
+  height: 44px;
+}
 .greedy-nav__toggle {
   -ms-flex-item-align: center;
   align-self: center;
+  flex: 0 0 2rem;
+  width: 2rem;
   height: 2rem;
+  padding: 0;
   border: 0;
   outline: none;
   background-color: transparent;
@@ -3748,11 +3764,7 @@ pre:hover .clipboard-copy-button {
 #main {
   margin-inline: auto;
   padding-inline: 1em;
-  -webkit-animation: intro 0.3s both;
-  animation: intro 0.3s both;
   max-width: 100%;
-  -webkit-animation-delay: 0.15s;
-  animation-delay: 0.15s;
 }
 @media (min-width: 80em) {
   #main {
@@ -3909,10 +3921,8 @@ body {
   display: table;
 }
 .page__hero {
-  -webkit-animation: intro 0.3s both;
-  animation: intro 0.3s both;
-  -webkit-animation-delay: 0.25s;
-  animation-delay: 0.25s;
+  -webkit-animation: none;
+  animation: none;
 }
 .page__hero--overlay {
   position: relative;
@@ -3929,10 +3939,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-animation: intro 0.3s both;
-  animation: intro 0.3s both;
-  -webkit-animation-delay: 0.25s;
-  animation-delay: 0.25s;
+  -webkit-animation: none;
+  animation: none;
 }
 .page__hero--overlay a {
   color: #fff;
@@ -3966,9 +3974,16 @@ body {
 }
 
 .page__hero-image {
-  width: 100%;
+  display: block;
+  width: auto;
+  max-width: 100%;
   height: auto;
+  margin-inline: auto;
   -ms-interpolation-mode: bicubic;
+}
+
+.page__hero picture {
+  display: block;
 }
 
 .page__hero-caption {
@@ -5237,12 +5252,10 @@ body {
   background-color: #fff;
 }
 
-html.is-navigating {
-  cursor: progress;
-}
-
-html.is-navigating .initial-content {
-  opacity: 0.985;
+.search-content {
+  display: contents;
+  visibility: visible;
+  padding: 0;
 }
 
 .search-content pagefind-modal-trigger {
