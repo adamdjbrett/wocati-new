@@ -5,7 +5,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npx @awesome.me/buildawesome && npx pagefind --site _site",
+    "build": "npx @awesome.me/buildawesome && npx pagefind --site _site && node scripts/optimize-site.mjs",
     "dev": "npx @awesome.me/buildawesome --serve",
     "clean": "rm -rf _site"
   },
