@@ -2310,8 +2310,11 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 }
 .greedy-nav .site-logo img {
   display: block;
-  width: 44px;
-  height: 44px;
+  width: 2rem;
+  height: 2rem;
+  max-width: 2rem !important;
+  max-height: 2rem;
+  object-fit: contain;
 }
 .greedy-nav__toggle {
   -ms-flex-item-align: center;
@@ -5379,6 +5382,12 @@ a:focus,
   border-color: var(--wocati-aaa-fill);
 }
 
+.pagination li a {
+  color: #fff;
+  background-color: var(--wocati-aaa-fill);
+  border-color: var(--wocati-aaa-fill);
+}
+
 .btn:hover,
 .btn:focus,
 .pagination--pager:hover,
@@ -5393,6 +5402,14 @@ a:focus,
 .pagination--pager.disabled,
 .pagination a.disabled,
 .pagination a.current {
+  color: var(--wocati-aaa-muted);
+  background-color: #fff;
+  border-color: var(--wocati-aaa-border);
+  opacity: 1;
+}
+
+.pagination li a.disabled,
+.pagination li a.current {
   color: var(--wocati-aaa-muted);
   background-color: #fff;
   border-color: var(--wocati-aaa-border);
