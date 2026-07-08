@@ -197,7 +197,7 @@ export function safeComputed(fn) {
 
 /* ---------- static files (Jekyll site.static_files facade) ---------- */
 
-const STATIC_DIRS = ["images", "wp-content", "assets"];
+const STATIC_DIRS = ["assets"];
 const STATIC_ROOT_FILES = ["favicon.ico", "robots.txt", "humans.txt"];
 
 export function collectStaticFiles() {
@@ -216,8 +216,8 @@ export function collectStaticFiles() {
         extname: path.extname(entry.name),
         modified_time: st.mtime,
         // Front-matter defaults from the migrated site settings:
-        image: rel.startsWith("/images/"),
-        pdf: rel.startsWith("/wp-content/uploads/"),
+        image: rel.startsWith("/assets/images/"),
+        pdf: rel.startsWith("/assets/wp-content/uploads/"),
       });
     }
   };

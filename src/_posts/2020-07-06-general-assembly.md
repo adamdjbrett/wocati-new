@@ -10,5 +10,5 @@ author: WOCATI
 ---
 
 ## World Conference of Associated Theological Institutions General Assembly Minutes
-- [View the Minutes as a Word Document](/wp-content/uploads/2020/07/General-Assembly-2020-minutes.docx)
-- [View the Minutes as a PDF](/wp-content/uploads/2020/07/General-Assembly-2020-minutes.pdf)
+- [View the Minutes as a Word Document](/assets/wp-content/uploads/2020/07/General-Assembly-2020-minutes.docx)
+- [View the Minutes as a PDF](/assets/wp-content/uploads/2020/07/General-Assembly-2020-minutes.pdf)

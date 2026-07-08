@@ -10,7 +10,7 @@ redirect_from:
   - /9780615770888/
   - /challenges/
 header:
-  image: /images/book-cover2.jpg
+  image: /assets/images/book-cover2.jpg
   caption: "[Photo Credit: **Rob Lee**](http://www.flickr.com/photos/roblee/23349644/)"
 categories:
   - work
@@ -27,10 +27,10 @@ sidebar:
 
 
 # Book Cover
-![2013 WOCATI Book Cover](/images/2013-WOCATI-cover-image-512.png)
+![2013 WOCATI Book Cover](/assets/images/2013-WOCATI-cover-image-512.png)
 
 
- _[&#10515; Download a high resolution version of the book cover](/wp-content/uploads/2014/12/2013-WOCATI-cover-image-2.png)_
+ _[&#10515; Download a high resolution version of the book cover](/assets/wp-content/uploads/2014/12/2013-WOCATI-cover-image-2.png)_
 
 
 ## _**Challenges and Promises of Quality Assurance in Theological Education: Multicontextual and Ecumenical Inquires**_
@@ -62,4 +62,4 @@ This book is a collection of presentation papers from various regions. We hope t
 * **Isabel Apawo Phiri,** is an executive member of WOCATI and new associate general secretary of the World Council of Churches, South Africa.
 
 ## Download the PDF
-[&#10515; Download _Challenges and Promises of Quality Assurance in Theological Education_ by WOCATI, 2013 as PDF](/wp-content/uploads/2013/03/2013-Challenges-and-Promises-of-Quality-Assurance-in-Theological-Education-WOCATI.pdf)
+[&#10515; Download _Challenges and Promises of Quality Assurance in Theological Education_ by WOCATI, 2013 as PDF](/assets/wp-content/uploads/2013/03/2013-Challenges-and-Promises-of-Quality-Assurance-in-Theological-Education-WOCATI.pdf)

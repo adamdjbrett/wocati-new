@@ -12,11 +12,11 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)
 ---
-[![World Conference of Associated Theological Institutions](/wp-content/uploads/2012/06/WOCATI-logo.png "WOCATI logo")](/wp-content/uploads/2012/06/WOCATI-logo.png)
+[![World Conference of Associated Theological Institutions](/assets/wp-content/uploads/2012/06/WOCATI-logo.png "WOCATI logo")](/assets/wp-content/uploads/2012/06/WOCATI-logo.png)
 
 
 
-## Africa[![WOCATI - Africa Map](/wp-content/uploads/2012/06/uploadsRTEmagicP_204ce30bc4.gif "Africa Map Image")](/wp-content/uploads/2012/06/uploadsRTEmagicP_204ce30bc4.gif)
+## Africa[![WOCATI - Africa Map](/assets/wp-content/uploads/2012/06/uploadsRTEmagicP_204ce30bc4.gif "Africa Map Image")](/assets/wp-content/uploads/2012/06/uploadsRTEmagicP_204ce30bc4.gif)
  
 
 **Association des Institutions d'Enseignement Theologique en Afrique Occidentale (AIETAO)**
@@ -55,7 +55,7 @@ Physical address: Instituto Universitario ISEDET Camacuá 252 C1406DOF Argentina
 
 ## Asia
 
-[![WOCATI - ASia](/wp-content/uploads/2012/06/uploadsRTEmagicP_8cbf7b843b.gif "Asia")](/wp-content/uploads/2012/06/uploadsRTEmagicP_8cbf7b843b.gif)
+[![WOCATI - ASia](/assets/wp-content/uploads/2012/06/uploadsRTEmagicP_8cbf7b843b.gif "Asia")](/assets/wp-content/uploads/2012/06/uploadsRTEmagicP_8cbf7b843b.gif)
 
 **The Association for Theological Education in South East Asia (ATESEA)**
 
@@ -95,7 +95,7 @@ Physical Address: Methodist Theological University 120-701, Naengcheong Dong 31,
 
  
 
-**Caribbean Association of Theological Schools (CATS)[![](/wp-content/uploads/2012/06/carib.gif "Central America")](/wp-content/uploads/2012/06/carib.gif)**
+**Caribbean Association of Theological Schools (CATS)[![](/assets/wp-content/uploads/2012/06/carib.gif "Central America")](/assets/wp-content/uploads/2012/06/carib.gif)**
 
 c/o The Chairman, Codrington College St. John, Barbados, W.I. Contact: Dr. Noel Titus Telephone: 246.423.1140 Fax: 246.423.1592 E-mail: codrington@sunbeach.net
 
@@ -105,7 +105,7 @@ c/o The Chairman, Codrington College St. John, Barbados, W.I. Contact: Dr. Noel 
 
 ## Europe
 
-**[![WOCATI - Europe](/wp-content/uploads/2012/06/uploadsRTEmagicP_9823968df9.gif "Europe")](/wp-content/uploads/2012/06/uploadsRTEmagicP_9823968df9.gif)Association of Centres of Adult Theological Education, Great Britain & Ireland**
+**[![WOCATI - Europe](/assets/wp-content/uploads/2012/06/uploadsRTEmagicP_9823968df9.gif "Europe")](/assets/wp-content/uploads/2012/06/uploadsRTEmagicP_9823968df9.gif)Association of Centres of Adult Theological Education, Great Britain & Ireland**
 
 Association of Theological and Religious Teachers in Eastern and Central Europe (ARTEEE) Dr. Fedor Kozyrev (Executive secretary) Post Box 31 191002 Str. Petersburg Russia
 
@@ -129,7 +129,7 @@ Physical address: Somerset Road, Edgbaston, Birmingham, B15 2QH Contact person: 
 
 ## Middle East
 
-[![WOCATI - Middle East](/wp-content/uploads/2012/06/uploadsRTEmagicC_29be05186e.gif "Middle East")](/wp-content/uploads/2012/06/uploadsRTEmagicC_29be05186e.gif) [](/wp-content/uploads/2012/06/uploadsRTEmagicC_29be05186e.gif)
+[![WOCATI - Middle East](/assets/wp-content/uploads/2012/06/uploadsRTEmagicC_29be05186e.gif "Middle East")](/assets/wp-content/uploads/2012/06/uploadsRTEmagicC_29be05186e.gif) [](/assets/wp-content/uploads/2012/06/uploadsRTEmagicC_29be05186e.gif)
 
 **Association of Theological Institutes in the Middle East (ATIME)**
 
@@ -141,7 +141,7 @@ Magdi S. Gendi, Executive Secretary Email: mgendi@etsc.org
 
 ## North America
 
-[![WOCATI - North America](/wp-content/uploads/2012/06/uploadsRTEmagicP_6350b92844.gif "North America")](/wp-content/uploads/2012/06/uploadsRTEmagicP_6350b92844.gif)
+[![WOCATI - North America](/assets/wp-content/uploads/2012/06/uploadsRTEmagicP_6350b92844.gif "North America")](/assets/wp-content/uploads/2012/06/uploadsRTEmagicP_6350b92844.gif)
 
 **American Theological Library Association (ATLA)**
 
@@ -163,7 +163,7 @@ Physical Address: 10 Summit Park Drive Pittsburgh, PA 15275 USA Contact person: 
 
 ## South America
 
-[![WOCATI - Latin America](/wp-content/uploads/2012/06/uploadsRTEmagicP_0baa2b60a7.gif "Latin America")](/wp-content/uploads/2012/06/uploadsRTEmagicP_0baa2b60a7.gif)
+[![WOCATI - Latin America](/assets/wp-content/uploads/2012/06/uploadsRTEmagicP_0baa2b60a7.gif "Latin America")](/assets/wp-content/uploads/2012/06/uploadsRTEmagicP_0baa2b60a7.gif)
 
 **Asociacion Latinoamericana de Instituciones de Educacion Teologica (ALIET)**
 
@@ -185,7 +185,7 @@ Rua Rego Freitas, 530, F-13, 01220 Sao Paulo, SP, Brasil Telephone: 412.788.6505
 
 ## Pacific / Oceania
 
-**[![WOCATI - Pacific](/wp-content/uploads/2012/06/uploadsRTEmagicP_7a5c4f3eb2.gif "Pacific")](/wp-content/uploads/2012/06/uploadsRTEmagicP_7a5c4f3eb2.gif)South Pacific Association of Theological Schools (SPATS)**
+**[![WOCATI - Pacific](/assets/wp-content/uploads/2012/06/uploadsRTEmagicP_7a5c4f3eb2.gif "Pacific")](/assets/wp-content/uploads/2012/06/uploadsRTEmagicP_7a5c4f3eb2.gif)South Pacific Association of Theological Schools (SPATS)**
 
 Physical Address: 30 Gardiner Road, Nasese, Suva P.O. Box 2426, Government Buildings Suva Fiji Contact person(s): Rusiate Tuidrakulu, (General Secretary) Telephone: (679) 330-3924 or 330-1942 Fax (679) 330-7005 E-mail: info@spats.org.fj or gensec@spats.org.fj or admin@spats.org.fj Website: [www.spats.org.fj](http://www.spats.org.fj)
 

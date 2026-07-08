@@ -2,7 +2,7 @@
 
 adamdjbrett:
     name: Adam DJ Brett
-    avatar : "/images/adam-dj-brett-256x256-min.jpg"
+    avatar : "/assets/images/adam-dj-brett-256x256-min.jpg"
     bio    : "I hold a Ph.D. in Religion from Syracuse University."
     links:
       - label: "Website"
@@ -23,6 +23,6 @@ WOCATI:
   name: WOCATI
   email: hello@wocati.org
   bio: "The main goal of World Conference of Associated Theological Institutions (WOCATI) is to serve the needs and aspirations of its member associations and their institutions, schools and centres"
-  avatar: /images/international-200x200.png
+  avatar: /assets/images/international-200x200.png
   twitter: wocati
   facebook: wocati

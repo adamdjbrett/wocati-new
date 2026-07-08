@@ -1,0 +1,4 @@
+# Redirect old paths to new locations (301 permanent)
+# Search engines and visitors are notified of the move
+/wp-content/*  /assets/wp-content/:splat  301
+/images/*  /assets/images/:splat  301

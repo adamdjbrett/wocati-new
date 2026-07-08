@@ -17,7 +17,7 @@ sidebar:
   nav: sidebar-about  
 ---
 
-[![wocati](/wp-content/uploads/2012/06/wocati.jpg)](/wp-content/uploads/2012/06/wocati.jpg)
+[![wocati](/assets/wp-content/uploads/2012/06/wocati.jpg)](/assets/wp-content/uploads/2012/06/wocati.jpg)
 
 ### Full World Conference of Associations of Theological Institutions (WOCATI) Resources
 
@@ -34,7 +34,7 @@ sidebar:
     - [Join](/members/join/)
 - [work](/work/)
     - [Challenges and Promises of Quality Assurance in Theological Education: Multicontextual and Ecumenical Inquires](/work/challenges-promises-quality-assurance-theological-education/)
-    - [⤓ Download Challenges and Promises as a PDF](/wp-content/uploads/2013/03/2013-Challenges-and-Promises-of-Quality-Assurance-in-Theological-Education-WOCATI.pdf)
+    - [⤓ Download Challenges and Promises as a PDF](/assets/wp-content/uploads/2013/03/2013-Challenges-and-Promises-of-Quality-Assurance-in-Theological-Education-WOCATI.pdf)
     - [WOCATI Newsletter](/resources/wocati-newsletter/)
     - [Ministerial Formation Journal Archive](/resources/archive/publications/ministerial-formation/)
 - [resources](/resources/)

@@ -9,7 +9,7 @@ sidebar:
   title: "About WOCATI"
   nav: sidebar-about
 ---
-[![World Conference of Associated Theological Institutions](/wp-content/uploads/2012/06/WOCATI-logo.png "WOCATI logo")](/wp-content/uploads/2012/06/WOCATI-logo.png)
+[![World Conference of Associated Theological Institutions](/assets/wp-content/uploads/2012/06/WOCATI-logo.png "WOCATI logo")](/assets/wp-content/uploads/2012/06/WOCATI-logo.png)
 
 Thank you for your interest in  the World Conference of Associations of Theological Institutions (WOCATI). Our Contact information is:
 

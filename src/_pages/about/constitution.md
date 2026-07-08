@@ -11,7 +11,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "heart"  # corresponding Font Awesome icon name (without fa prefix)  
 ---
-[![World Conference of Associated Theological Institutions](/wp-content/uploads/2012/06/WOCATI-logo.png "WOCATI logo")](/wp-content/uploads/2012/06/WOCATI-logo.png)
+[![World Conference of Associated Theological Institutions](/assets/wp-content/uploads/2012/06/WOCATI-logo.png "WOCATI logo")](/assets/wp-content/uploads/2012/06/WOCATI-logo.png)
 
 
 # World Conference of Associations of Theological Institutions (WOCATI) Theological Education Network
@@ -227,4 +227,4 @@ WOCATI is organized according to the provisions contained herein for the followi
 _Adopted by WOCATI (The World Conference of Associations of Theological Institutions) at its Inaugural meeting at Kaliurang, Yogyakarta, Indonesia, 19<sup>th</sup> June, 1989 , amended at the Nairobi Congress on 3<sup>rd</sup> July, 1996 and by the constitutional revision process after the WOCATI Congress in Greece by the WOCATI Executive Meeting in Princeton Theological Seminary 17-20 March 2009, approved by the members of WOCATI May 2010._
 
 ## Download the World Conference of Associations of Theological Institutions (WOCATI)  Constitution
-### [&#10515; WOCATI Constitution 2010 PDF](/wp-content/uploads/2012/06/WOCATI-Constitution-2010_rev2.pdf)
+### [&#10515; WOCATI Constitution 2010 PDF](/assets/wp-content/uploads/2012/06/WOCATI-Constitution-2010_rev2.pdf)

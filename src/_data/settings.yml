@@ -10,8 +10,8 @@ twitter_username: WOCATI
 search: true
 search_provider: pagefind
 url: "https://www.wocati.org"
-teaser: "/images/teaser.png"
-logo: "/images/international-88x88.png"
+teaser: "/assets/images/teaser.png"
+logo: "/assets/images/international-88x88.png"
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
@@ -56,11 +56,11 @@ defaults:
       author_profile: true
   # assets
   - scope:
-      path: "images"
+      path: "assets/images"
     values:
       image: true
   - scope:
-      path: "wp-content/uploads"
+      path: "assets/wp-content/uploads"
     values:
       pdf: true
 
