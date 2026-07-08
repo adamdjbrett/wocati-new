@@ -65,17 +65,6 @@ layout: default
 
       {% include post_pagination.html locale=locale %}
     </div>
-
-    {% if site.comments.provider and jpage.comments %}
-      {% if jekyll.environment == 'production' %}
-        {% include comments.html locale=locale %}
-      {% else %}
-        <p>
-          Comments are configured with provider: <strong>{{ site.comments.provider }}</strong>,
-          but are disabled in non-production environments.
-        </p>
-      {% endif %}
-    {% endif %}
   </article>
 
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}

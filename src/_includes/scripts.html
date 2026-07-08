@@ -4,25 +4,14 @@
     <script src="{{ script | relative_url }}"></script>
   {% endfor %}
 {% else %}
-  <script src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 {% endif %}
 <script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
 <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
 
 {% if site.search == true or jpage.layout == "search" %}
-  {%- assign search_provider = site.search_provider | default: "pagefind" -%}
-  {%- case search_provider -%}
-    {%- when "pagefind" -%}
-      {% include search/pagefind-search-scripts.html locale=locale %}
-    {%- when "google" -%}
-      {% include search/google-search-scripts.html %}
-    {%- when "algolia" -%}
-      {% include search/algolia-search-scripts.html locale=locale %}
-  {%- endcase -%}
+  {% include search/pagefind-search-scripts.html locale=locale %}
 {% endif %}
-
-{% include analytics.html %}
-{% include comments-providers/scripts.html locale=locale %}
 
 {% if site.after_footer_scripts %}
   {% for script in site.after_footer_scripts %}

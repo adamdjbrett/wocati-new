@@ -58,21 +58,11 @@
     {% endcapture %}
     {% assign newline = newline | rstrip %} <!-- Remove the extra spacing but preserve the newline -->
 
-    {% capture deprecation_warnings %}{% endcapture %}
-
-    {% if include.baseurl %}
-        {% capture deprecation_warnings %}{{ deprecation_warnings }}<!-- jekyll-toc :: "baseurl" has been deprecated, use "base_url" instead -->{{ newline }}{% endcapture %}
-    {% endif %}
-
-    {% if include.skipNoIDs %}
-        {% capture deprecation_warnings %}{{ deprecation_warnings }}<!-- jekyll-toc :: "skipNoIDs" has been deprecated, use "skip_no_ids" instead -->{{ newline }}{% endcapture %}
-    {% endif %}
-
     {% capture jekyll_toc %}{% endcapture %}
     {% assign orderedList = include.ordered | default: false %}
     {% assign flatToc = include.flat_toc | default: false %}
-    {% assign baseURL = include.base_url | default: include.baseurl | default: '' %}
-    {% assign skipNoIDs = include.skip_no_ids | default: include.skipNoIDs | default: false %}
+    {% assign baseURL = include.base_url | default: '' %}
+    {% assign skipNoIDs = include.skip_no_ids | default: false %}
     {% assign minHeader = include.h_min | default: 1 %}
     {% assign maxHeader = include.h_max | default: 6 %}
     {% assign nodes = include.html | strip | split: '<h' %}
@@ -186,4 +176,4 @@
             {% capture jekyll_toc %}<{{ listModifier }}{{ rootAttributes }}>{{ nodes | shift | join: '>' }}>{% endcapture %}
         {% endif %}
     {% endif %}
-{% endcapture %}{% assign tocWorkspace = '' %}{{ deprecation_warnings }}{{ jekyll_toc -}}
+{% endcapture %}{% assign tocWorkspace = '' %}{{ jekyll_toc -}}
