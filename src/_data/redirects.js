@@ -2,7 +2,7 @@
 // (jekyll-redirect-from parity): stub pages + redirects.json.
 import fs from "node:fs";
 import path from "node:path";
-import yaml from "js-yaml";
+import * as yaml from "js-yaml";
 import { ROOT, jekyllSlugify } from "../_11ty/lib.js";
 
 function* walk(dir) {
