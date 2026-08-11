@@ -5,7 +5,6 @@ import path from "node:path";
 import fs from "node:fs";
 import fontAwesomePlugin from "@11ty/font-awesome";
 import Image from "@11ty/eleventy-img";
-import { imageSize } from "image-size";
 import yaml from "js-yaml";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
@@ -15,28 +14,6 @@ import addJekyllFilters from "./src/_11ty/filters.js";
 import site from "./src/_data/site.js";
 
 process.env.TZ = SITE_TZ;
-
-const imageDimensionCache = new Map();
-
-function localImageDimensions(src) {
-  const cleanSrc = String(src || "").split(/[?#]/)[0];
-  if (!cleanSrc || /^[a-z][a-z0-9+.-]*:/i.test(cleanSrc) || cleanSrc.startsWith("//")) return null;
-
-  const relativePath = cleanSrc.replace(/^\//, "");
-  const absolutePath = path.join(ROOT, relativePath);
-  if (!fs.existsSync(absolutePath)) return null;
-  if (imageDimensionCache.has(absolutePath)) return imageDimensionCache.get(absolutePath);
-
-  try {
-    const size = imageSize(fs.readFileSync(absolutePath));
-    const dimensions = size.width && size.height ? { width: size.width, height: size.height } : null;
-    imageDimensionCache.set(absolutePath, dimensions);
-    return dimensions;
-  } catch {
-    imageDimensionCache.set(absolutePath, null);
-    return null;
-  }
-}
 
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(fontAwesomePlugin, {
@@ -151,7 +128,7 @@ export default function (eleventyConfig) {
       const outDir = path.join("_site", parsed.dir);
 
       try {
-        await Image(absPath, {
+        const metadata = await Image(absPath, {
           widths: [null],
           formats: ["webp"],
           outputDir: outDir,
@@ -177,7 +154,7 @@ export default function (eleventyConfig) {
         }
         const sourceSrcset = srcsetSources.join(", ");
 
-        const dimensions = localImageDimensions(src);
+        const dimensions = metadata.webp?.[0];
         let imgAttrs = `${before}src=${quote}${src}${quote}${after}`;
         if (dimensions) {
           if (!/\bwidth\s*=/.test(imgAttrs)) imgAttrs += ` width="${dimensions.width}"`;
@@ -201,21 +178,6 @@ export default function (eleventyConfig) {
     }
 
     return content;
-  });
-
-  eleventyConfig.addTransform("wocatiImageDimensions", function (content) {
-    if (typeof this.page.outputPath !== "string" || !this.page.outputPath.endsWith(".html")) return content;
-    return content.replace(/<img\b([^>]*?)\bsrc=(["'])([^"']+)\2([^>]*)>/gi, (match, before, quote, src, after) => {
-      if (/\bwidth\s*=/.test(match) && /\bheight\s*=/.test(match)) return match;
-      const dimensions = localImageDimensions(src);
-      if (!dimensions) return match;
-
-      let attributes = `${before}src=${quote}${src}${quote}${after}`;
-      if (!/\bwidth\s*=/.test(match)) attributes += ` width="${dimensions.width}"`;
-      if (!/\bheight\s*=/.test(match)) attributes += ` height="${dimensions.height}"`;
-      if (!/\bstyle\s*=/.test(match)) attributes += ` style="max-width: ${dimensions.width}px;"`;
-      return `<img${attributes}>`;
-    });
   });
 
   eleventyConfig.addTransform("wocatiAccessibleImageLinks", function (content) {
