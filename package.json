@@ -10,7 +10,6 @@
     "clean": "rm -rf _site"
   },
   "dependencies": {
-    "@11ty/eleventy-img": "7.0.0",
     "@11ty/font-awesome": "1.0.1",
     "@awesome.me/buildawesome": "4.0.0-alpha.10",
     "js-yaml": "4.3.1",
@@ -19,8 +18,6 @@
     "pagefind": "1.5.2"
   },
   "overrides": {
-    "sharp": "0.35.3",
-    "postcss": "8.5.23",
     "@11ty/recursive-copy": "5.0.2"
   }
 }

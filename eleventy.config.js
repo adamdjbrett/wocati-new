@@ -4,7 +4,6 @@
 import path from "node:path";
 import fs from "node:fs";
 import fontAwesomePlugin from "@11ty/font-awesome";
-import Image from "@11ty/eleventy-img";
 import yaml from "js-yaml";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
@@ -102,83 +101,6 @@ export default function (eleventyConfig) {
 
   /* ---------- misc parity ---------- */
   eleventyConfig.setDataDeepMerge(true);
-
-  eleventyConfig.addTransform("wocatiResponsiveImages", async function (content) {
-    if (typeof this.page.outputPath !== "string" || !this.page.outputPath.endsWith(".html")) return content;
-
-    const imgRegex = /<img\b([^>]*?)\bsrc=(["'])([^"']+)\2([^>]*)>/gi;
-    const operations = [];
-
-    let match;
-    while ((match = imgRegex.exec(content)) !== null) {
-      const [fullMatch, before, quote, src, after] = match;
-      if (/<picture[\s\S]*$/.test(content.slice(Math.max(0, match.index - 120), match.index))) continue;
-      if (/favicon|apple-touch-icon|android-chrome|mstile|safari-pinned-tab/i.test(src)) continue;
-
-      const srcNoQuery = src.split(/[?#]/)[0];
-      const ext = path.extname(srcNoQuery).toLowerCase();
-      if (![".png", ".jpg", ".jpeg", ".gif"].includes(ext)) continue;
-
-      const rel = srcNoQuery.replace(/^https?:\/\/[^/]+/i, "").replace(/^\//, "");
-      const absPath = path.join(ROOT, rel);
-      if (!fs.existsSync(absPath)) continue;
-
-      const parsed = path.parse(rel);
-      const urlPath = "/" + parsed.dir.replace(/\\/g, "/");
-      const outDir = path.join("_site", parsed.dir);
-
-      try {
-        const metadata = await Image(absPath, {
-          widths: [null],
-          formats: ["webp"],
-          outputDir: outDir,
-          urlPath,
-          filenameFormat: (id, src, filenameWidth, format) => {
-            const name = path.basename(src, path.extname(src));
-            return `${name}.${format}`;
-          },
-        });
-
-        const webpSrc = srcNoQuery.replace(/\.(png|jpe?g|gif)$/i, ".webp");
-
-        // Build srcset with high-res Retina variants (e.g. -1400w, -2800w)
-        const srcsetSources = [webpSrc];
-        const origRel = srcNoQuery.replace(/^https?:\/\/[^/]+/i, "").replace(/^\//, "");
-        const origDir = path.dirname(origRel);
-        const origName = path.basename(origRel, path.extname(origRel));
-        for (const suffix of ["-1400w", "-2800w"]) {
-          const variant = `/${origDir}/${origName}${suffix}.webp`;
-          if (fs.existsSync(path.join(ROOT, variant.replace(/^\//, "")))) {
-            srcsetSources.push(variant);
-          }
-        }
-        const sourceSrcset = srcsetSources.join(", ");
-
-        const dimensions = metadata.webp?.[0];
-        let imgAttrs = `${before}src=${quote}${src}${quote}${after}`;
-        if (dimensions) {
-          if (!/\bwidth\s*=/.test(imgAttrs)) imgAttrs += ` width="${dimensions.width}"`;
-          if (!/\bheight\s*=/.test(imgAttrs)) imgAttrs += ` height="${dimensions.height}"`;
-        }
-        if (!/\bloading\s*=/.test(imgAttrs)) imgAttrs += ' loading="lazy"';
-        if (!/\bdecoding\s*=/.test(imgAttrs)) imgAttrs += ' decoding="async"';
-
-        operations.push({
-          index: match.index,
-          from: fullMatch,
-          to: `<picture><source srcset="${sourceSrcset}" type="image/webp"><img${imgAttrs}></picture>`,
-        });
-      } catch (e) {
-        console.error(`[wocatiResponsiveImages] ${rel}: ${e.message}`);
-      }
-    }
-
-    for (const { index, from, to } of operations.reverse()) {
-      content = content.slice(0, index) + to + content.slice(index + from.length);
-    }
-
-    return content;
-  });
 
   eleventyConfig.addTransform("wocatiAccessibleImageLinks", function (content) {
     if (typeof this.page.outputPath !== "string" || !this.page.outputPath.endsWith(".html")) return content;
