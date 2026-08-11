@@ -4,7 +4,7 @@
 import path from "node:path";
 import fs from "node:fs";
 import fontAwesomePlugin from "@11ty/font-awesome";
-import yaml from "js-yaml";
+import * as yaml from "js-yaml";
 import markdownIt from "markdown-it";
 import markdownItAnchor from "markdown-it-anchor";
 import { kramdownSlug, parseJekyllDate, yamlNoDates, SITE_TZ, ROOT } from "./src/_11ty/lib.js";

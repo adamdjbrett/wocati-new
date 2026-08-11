@@ -2,7 +2,7 @@
 // Site timezone is UTC for deterministic Build Awesome output.
 import fs from "node:fs";
 import path from "node:path";
-import yaml from "js-yaml";
+import * as yaml from "js-yaml";
 
 export const SITE_TZ = "UTC";
 process.env.TZ = SITE_TZ;
