@@ -16,7 +16,6 @@
 
     <div class="initial-content" data-pagefind-body>
       {{ content }}
-      {% include after-content.html %}
     </div>
 
     {% if site.search == true %}
@@ -27,7 +26,6 @@
 
     <div id="footer" class="page__footer">
       <footer>
-        {% include footer/custom.html %}
         {% include footer.html locale=locale %}
       </footer>
     </div>

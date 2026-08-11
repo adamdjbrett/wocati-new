@@ -5,8 +5,6 @@ layout: default
 
 {% if jpage.header.overlay_color or jpage.header.overlay_image or jpage.header.image %}
   {% include page__hero.html locale=locale %}
-{% elsif jpage.header.video.id and jpage.header.video.provider %}
-  {% include page__hero_video.html %}
 {% endif %}
 
 {% assign breadcrumbs_enabled = site.breadcrumbs %}

@@ -5,30 +5,22 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npx @awesome.me/buildawesome && npx pagefind --site _site && node scripts/optimize-site.mjs",
-    "dev": "npx @awesome.me/buildawesome --serve",
+    "build": "buildawesome && pagefind --site _site",
+    "dev": "buildawesome --serve",
     "clean": "rm -rf _site"
   },
   "dependencies": {
-    "@11ty/eleventy-img": "6.0.4",
+    "@11ty/eleventy-img": "7.0.0",
     "@11ty/font-awesome": "1.0.1",
-    "@apleasantview/eleventy-plugin-baseline": "0.1.0-next.44",
     "@awesome.me/buildawesome": "4.0.0-alpha.10",
-    "js-yaml": "^4.3.1",
-    "markdown-it": "^14.1.0",
-    "markdown-it-anchor": "^9.2.0",
-    "pagefind": "1.5.2",
-    "sass": "^1.79.0"
+    "js-yaml": "4.3.1",
+    "markdown-it": "14.3.0",
+    "markdown-it-anchor": "9.2.0",
+    "pagefind": "1.5.2"
   },
   "overrides": {
-    "sharp": "^0.35.0",
+    "sharp": "0.35.3",
     "postcss": "8.5.23",
     "@11ty/recursive-copy": "5.0.2"
-  },
-  "allowScripts": {
-    "@parcel/watcher@2.5.6": true,
-    "esbuild@0.28.1": true,
-    "fsevents@2.3.3": true,
-    "sharp@0.35.0": true
   }
 }
