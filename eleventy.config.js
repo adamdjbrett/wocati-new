@@ -3,10 +3,10 @@
 // identical permalinks, JSON-LD / Zotero / metadata.json integration intact.
 import path from "node:path";
 import fs from "node:fs";
-import fontAwesomePlugin from "@11ty/font-awesome";
 import * as yaml from "js-yaml";
 import markdownIt from "markdown-it";
-import markdownItAnchor from "markdown-it-anchor";
+import markdownItFootnote from "markdown-it-footnote";
+import markdownItToc from "markdown-it-toc";
 import { kramdownSlug, parseJekyllDate, yamlNoDates, SITE_TZ, ROOT } from "./src/_11ty/lib.js";
 import kramdownIndent from "./src/_11ty/kramdown-render.js";
 import addJekyllFilters from "./src/_11ty/filters.js";
@@ -15,15 +15,6 @@ import site from "./src/_data/site.js";
 process.env.TZ = SITE_TZ;
 
 export default function (eleventyConfig) {
-  eleventyConfig.addPlugin(fontAwesomePlugin, {
-    transform: "i[class]",
-    shortcode: false,
-    defaultAttributes: {
-      class: "icon-svg",
-      "aria-hidden": "true",
-    },
-  });
-
   /* ---------- template languages ---------- */
   eleventyConfig.setLiquidOptions({
     jekyllInclude: true,     // {% include foo.html param="x" %}
@@ -49,10 +40,13 @@ export default function (eleventyConfig) {
 
   /* ---------- markdown: kramdown-compatible ---------- */
   const md = markdownIt({ html: true, xhtmlOut: true, breaks: false, linkify: false, typographer: true })
-    .use(markdownItAnchor, {
+    .use(markdownItFootnote)
+    .use(markdownItToc, {
+      includeLevel: [1, 2, 3],
+      containerClass: "toc",
+      listType: "ul",
+      format: (heading) => heading.trim(),
       slugify: kramdownSlug,
-      tabIndex: false,
-      level: [1, 2, 3, 4, 5, 6],
     });
   kramdownIndent(md);
   eleventyConfig.setLibrary("md", md);

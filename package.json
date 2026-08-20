@@ -5,17 +5,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "buildawesome && pagefind --site _site",
+    "build": "buildawesome",
     "dev": "buildawesome --serve",
     "clean": "rm -rf _site"
   },
   "dependencies": {
-    "@11ty/font-awesome": "1.0.1",
     "@awesome.me/buildawesome": "4.0.0-alpha.10",
     "js-yaml": "5.2.3",
     "markdown-it": "15.0.0",
-    "markdown-it-anchor": "9.2.1",
-    "pagefind": "1.5.2"
+    "markdown-it-footnote": "4.0.0",
+    "markdown-it-toc": "1.1.0"
   },
   "overrides": {
     "@11ty/recursive-copy": "5.0.2"
