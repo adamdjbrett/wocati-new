@@ -11,12 +11,7 @@ main:
     url: /resources/
   - title: Archive
     url: /resources/archive/
-  - title: Posts
-    url: /posts/
-  - title: Categories
-    url: /categories/
-  - title: Tags
-    url: /tags/
+
 
 #sidebar about
 sidebar-about:
@@ -52,3 +47,9 @@ sidebar-about:
         url: /resources/wocati-newsletter/
       - title: Work
         url: /work/
+  - title: Posts
+    url: /posts/
+  - title: Categories
+    url: /categories/
+  - title: Tags
+    url: /tags/
