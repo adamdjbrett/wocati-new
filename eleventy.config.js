@@ -6,7 +6,7 @@ import fs from "node:fs";
 import * as yaml from "js-yaml";
 import markdownIt from "markdown-it";
 import markdownItFootnote from "markdown-it-footnote";
-import markdownItToc from "markdown-it-toc";
+import markdownItToc from "markdown-it-toc-done-right";
 import { kramdownSlug, parseJekyllDate, yamlNoDates, SITE_TZ, ROOT } from "./src/_11ty/lib.js";
 import kramdownIndent from "./src/_11ty/kramdown-render.js";
 import addJekyllFilters from "./src/_11ty/filters.js";
@@ -42,10 +42,10 @@ export default function (eleventyConfig) {
   const md = markdownIt({ html: true, xhtmlOut: true, breaks: false, linkify: false, typographer: true })
     .use(markdownItFootnote)
     .use(markdownItToc, {
-      includeLevel: [1, 2, 3],
+      level: [1, 2, 3],
       containerClass: "toc",
       listType: "ul",
-      format: (heading) => heading.trim(),
+      format: (heading, htmlencode) => htmlencode(heading.trim()),
       slugify: kramdownSlug,
     });
   kramdownIndent(md);
