@@ -1,5 +1,5 @@
 // Jekyll Liquid filters that LiquidJS doesn't ship, so Minimal Mistakes
-// templates render unmodified under Build Awesome (Eleventy).
+// templates render unmodified under Eleventy.
 import {
   dateToXmlschema, dateToRfc822, strftime, toDate,
   jekyllSlugify, stripHtml, xmlEscape,

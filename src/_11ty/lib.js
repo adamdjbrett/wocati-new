@@ -1,5 +1,5 @@
-// Jekyll-compatibility helpers for the Build Awesome (Eleventy) port.
-// Site timezone is UTC for deterministic Build Awesome output.
+// Jekyll-compatibility helpers for the Eleventy port.
+// Site timezone is UTC for deterministic Eleventy output.
 import fs from "node:fs";
 import path from "node:path";
 import * as yaml from "js-yaml";

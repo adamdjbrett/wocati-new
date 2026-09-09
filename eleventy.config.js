@@ -1,13 +1,11 @@
-// WOCATI — Build Awesome (Eleventy) configuration.
+// WOCATI — Eleventy configuration.
 // Jekyll + Minimal Mistakes 4.28.0 compatibility port: identical HTML/CSS,
 // identical permalinks, JSON-LD / Zotero / metadata.json integration intact.
 import path from "node:path";
 import fs from "node:fs";
 import * as yaml from "js-yaml";
 import markdownIt from "markdown-it";
-import markdownItFootnote from "markdown-it-footnote";
-import markdownItToc from "markdown-it-toc-done-right";
-import { kramdownSlug, parseJekyllDate, yamlNoDates, SITE_TZ, ROOT } from "./src/_11ty/lib.js";
+import { parseJekyllDate, yamlNoDates, SITE_TZ } from "./src/_11ty/lib.js";
 import kramdownIndent from "./src/_11ty/kramdown-render.js";
 import addJekyllFilters from "./src/_11ty/filters.js";
 import site from "./src/_data/site.js";
@@ -39,18 +37,9 @@ export default function (eleventyConfig) {
   });
 
   /* ---------- markdown: kramdown-compatible ---------- */
-  const md = markdownIt({ html: true, xhtmlOut: true, breaks: false, linkify: false, typographer: true })
-    .use(markdownItFootnote)
-    .use(markdownItToc, {
-      level: [1, 2, 3],
-      containerClass: "toc",
-      listType: "ul",
-      format: (heading, htmlencode) => htmlencode(heading.trim()),
-      slugify: kramdownSlug,
-    });
+  const md = markdownIt({ html: true, xhtmlOut: true, breaks: false, linkify: false, typographer: true });
   kramdownIndent(md);
   eleventyConfig.setLibrary("md", md);
-  eleventyConfig.addGlobalData("__markdown", () => md);
 
   /* ---------- Jekyll Liquid filters ---------- */
   addJekyllFilters(eleventyConfig, { siteUrl: site.url, baseurl: site.baseurl, markdown: md });
